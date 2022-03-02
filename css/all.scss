@@ -7,11 +7,6 @@ body{
 
 
 
-.index{
-    background-image: url("../image/indexbg.png");
-}
-
-
 .nav-link{
     position: relative;
     &:hover{
@@ -19,15 +14,22 @@ body{
             content:"";
             display: block;
             position: absolute;
-            left: 1;
-            top: -2;
+            left: -5px;
+            top: 18px;
             background-color: $primary;
-            width: 3px;
-            height: 3px;
+            width: 5px;
+            height: 5px;
             border-radius: 50%;
         }
     }
 }
+
+/*
+
+.index{
+    background-image: url("../image/indexbg.png");
+}
+
 
 .bg-1{
     background-color: #F3F3F3;
@@ -170,4 +172,6 @@ body{
 .z-index{
     z-index: 5;
 }
- 
+
+*/
+

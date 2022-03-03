@@ -12139,12 +12139,25 @@ body {
   content: "";
   display: block;
   position: absolute;
-  left: 5px;
+  left: -1px;
   top: 18px;
   background-color: #E0364E;
   width: 5px;
   height: 5px;
   border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .nav-link:hover::before {
+    display: block;
+    position: absolute;
+    left: -1px;
+    top: 18px;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
 }
 
 /*

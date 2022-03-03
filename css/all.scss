@@ -8,24 +8,32 @@ body{
 
 
 .nav-link{
-    
     position: relative;
     &:hover{
-    
         &::before{
             content:"";
             display: block;
             position: absolute;
-            left: 5px;
+            left: -1px;
             top: 18px;
             background-color: $primary;
             width: 5px;
             height: 5px;
             border-radius: 50%;
+            @media (max-width: 768px){
+                display: block;
+            position: absolute;
+            left: -1px;
+            top: 18px;
+            background-color: white;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+
+            }
         }
     }
 }
-
 
 
 

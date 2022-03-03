@@ -8,6 +8,7 @@ body{
 
 
 .nav-link{
+    border-bottom: 2px white solid;
     position: relative;
     &:hover{
         border-bottom: 2px $gray-200 solid;

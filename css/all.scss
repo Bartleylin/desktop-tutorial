@@ -8,10 +8,10 @@ body{
 
 
 .nav-link{
-    border-bottom: 2px white solid;
+    
     position: relative;
     &:hover{
-        border-bottom: 2px $gray-200 solid;
+    
         &::before{
             content:"";
             display: block;
@@ -28,9 +28,7 @@ body{
 
 
 
-.navbar-icon{
-    background: url(image/navbar-icon.png);
-}
+
 
 /*
 

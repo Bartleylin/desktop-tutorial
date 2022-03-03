@@ -12132,12 +12132,7 @@ body {
 }
 
 .nav-link {
-  border-bottom: 2px white solid;
   position: relative;
-}
-
-.nav-link:hover {
-  border-bottom: 2px #e9ecef solid;
 }
 
 .nav-link:hover::before {
@@ -12150,10 +12145,6 @@ body {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-}
-
-.navbar-icon {
-  background: url(image/navbar-icon.png);
 }
 
 /*

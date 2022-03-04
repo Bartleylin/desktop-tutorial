@@ -12131,9 +12131,28 @@ body {
   font-family: "Noto Sans TC";
 }
 
+.img-md {
+  max-width: 240px;
+}
+
 @media (max-width: 768px) {
   .img-md {
     width: 75%;
+  }
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
   }
 }
 

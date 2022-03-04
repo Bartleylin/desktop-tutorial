@@ -11,12 +11,9 @@ body{
 
 .navbar-brand {
     width: 240px;
-    @media (max-width: 768px){
-        width: 180px;
-    
-    }
     margin-right: 2rem;
     @media (max-width: 768px){
+    width: 180px;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 0rem;

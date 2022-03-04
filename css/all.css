@@ -12139,11 +12139,6 @@ body {
 @media (max-width: 768px) {
   .navbar-brand {
     width: 180px;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar-brand {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 0rem;

@@ -12131,18 +12131,15 @@ body {
   font-family: "Noto Sans TC";
 }
 
-.img-md {
-  max-width: 240px;
+.navbar-brand {
+  width: 240px;
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
-  .img-md {
-    width: 75%;
+  .navbar-brand {
+    width: 180px;
   }
-}
-
-.navbar-brand {
-  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {

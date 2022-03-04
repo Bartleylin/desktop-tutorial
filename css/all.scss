@@ -6,6 +6,11 @@ body{
 }
 
 
+.img-md{
+    @media (max-width: 768px){
+        width: 75%;
+    }
+}
 
 .nav-link{
     position: relative;
@@ -21,9 +26,9 @@ body{
             height: 5px;
             border-radius: 50%;
             @media (max-width: 768px){
-                display: block;
+            display: block;
             position: absolute;
-            left: -1px;
+            left: -15px;
             top: 18px;
             background-color: white;
             width: 5px;

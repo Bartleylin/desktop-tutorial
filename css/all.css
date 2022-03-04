@@ -12131,6 +12131,12 @@ body {
   font-family: "Noto Sans TC";
 }
 
+@media (max-width: 768px) {
+  .img-md {
+    width: 75%;
+  }
+}
+
 .nav-link {
   position: relative;
 }
@@ -12151,7 +12157,7 @@ body {
   .nav-link:hover::before {
     display: block;
     position: absolute;
-    left: -1px;
+    left: -15px;
     top: 18px;
     background-color: white;
     width: 5px;

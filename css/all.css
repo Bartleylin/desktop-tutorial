@@ -12213,6 +12213,10 @@ body {
   }
 }
 
+.display-2 {
+  font-weight: 500;
+}
+
 .title-line {
   width: 5%;
   height: 3px;

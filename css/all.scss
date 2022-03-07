@@ -8,6 +8,7 @@ body{
 
 
 
+
 /* 導覽列*/
 
 .navbar-brand {
@@ -111,6 +112,17 @@ h5{
         letter-spacing: 1px;
     }
 }
+
+p {
+    font-size: 1.25rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    @media (max-width: 576px){
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}
+
 
 .fw-normal{
     font-weight: 500 !important;

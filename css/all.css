@@ -12131,6 +12131,7 @@ body {
   font-family: "Noto Sans TC";
 }
 
+/* 導覽列*/
 .navbar-brand {
   width: 240px;
   margin-right: 2rem;
@@ -12177,22 +12178,59 @@ body {
   }
 }
 
-/*
-
-.index{
-    background-image: url("../image/indexbg.png");
+/*首圖*/
+.index {
+  background-image: url(../image/indexbg.png);
+  background-size: cover;
+  padding-top: 147px;
+  padding-bottom: 204px;
 }
 
+@media (max-width: 1399px) {
+  .index {
+    background-image: url(../image/index-1400.png);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+}
 
+@media (max-width: 767px) {
+  .index {
+    background-image: url(../image/index-768.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .index {
+    background-image: url(../image/index-576.png);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+.title-line {
+  width: 5%;
+  height: 3px;
+  background-color: #707070;
+}
+
+.btn:a:h5 {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/*
 .bg-1{
     background-color: #F3F3F3;
 }
 
-.title-line{
-    width: 10%;
-    height: 3px;
-    background-color: #707070;
-}
 
 .title-line2{
     width: 10%;

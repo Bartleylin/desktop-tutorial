@@ -12217,8 +12217,32 @@ body {
   letter-spacing: 8px;
 }
 
+@media (max-width: 767px) {
+  .display-2 {
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-2 {
+    letter-spacing: 3px;
+  }
+}
+
 .display-6 {
   letter-spacing: 4px;
+}
+
+@media (max-width: 767px) {
+  .display-6 {
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-6 {
+    letter-spacing: 3px;
+  }
 }
 
 h5, .h5 {
@@ -12228,6 +12252,7 @@ h5, .h5 {
 @media (max-width: 576px) {
   h5, .h5 {
     font-size: 1rem;
+    letter-spacing: 1px;
   }
 }
 

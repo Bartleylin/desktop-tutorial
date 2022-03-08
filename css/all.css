@@ -12306,6 +12306,15 @@ p {
 /*3特點*/
 .bg-1 {
   background-color: #F3F3F3;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 576px) {
+  .bg-1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 .Advantage-img {
@@ -12313,7 +12322,7 @@ p {
 }
 
 .fs-7 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 576px) {

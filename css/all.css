@@ -12131,6 +12131,50 @@ body {
   font-family: "Noto Sans TC";
 }
 
+a {
+  text-decoration: none;
+}
+
+.fs-7 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .fs-7 {
+    font-size: 1rem;
+  }
+}
+
+.fs-8 {
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .fs-8 {
+    font-size: 0.8rem;
+  }
+}
+
+.fs-9 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .fs-9 {
+    font-size: 1rem;
+  }
+}
+
+.fs-10 {
+  font-size: 0.875rem;
+}
+
+.title-line3 {
+  max-width: 90px;
+  height: 1px;
+  background-color: white;
+}
+
 /* 導覽列*/
 .navbar-brand {
   width: 240px;
@@ -12321,23 +12365,11 @@ p {
   max-width: 150px;
 }
 
-.fs-7 {
-  font-size: 1.5rem;
-}
-
+/*潛在風險*/
+/*表尾*/
 @media (max-width: 576px) {
-  .fs-7 {
-    font-size: 1rem;
-  }
-}
-
-.fs-8 {
-  font-size: 1rem;
-}
-
-@media (max-width: 576px) {
-  .fs-8 {
-    font-size: 0.8rem;
+  .footer-img {
+    max-width: 120px;
   }
 }
 
@@ -12368,29 +12400,25 @@ p {
   }
 }
 
-.fs-9 {
-  font-size: 1.25rem;
+/*右側按鈕*/
+.support-btn img {
+  max-width: 80px;
 }
 
 @media (max-width: 576px) {
-  .fs-9 {
-    font-size: 1rem;
+  .support-btn img {
+    max-width: 50px;
   }
 }
 
 /*
-
 .title-line2{
     width: 10%;
     height: 2px;
     background-color: white;
 }
 
-.title-line3{
-    width: 20%;
-    height: 1px;
-    background-color: white;
-}
+
 
 
 .bottom-line{

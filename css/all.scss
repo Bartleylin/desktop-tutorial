@@ -5,8 +5,12 @@ body{
     font-family: 'Noto Sans TC',;
 }
 
-a{
-    text-decoration:none
+html, body {
+    scroll-behavior: smooth;
+}
+
+.fw-light{
+    font-weight: 400 !important;
 }
 
 .fs-7{

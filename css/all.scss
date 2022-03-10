@@ -150,14 +150,14 @@ html, body {
     }
 }
 .display-7{
-    font-size: 2.25rem;
+    font-size: 2rem;
     letter-spacing: 4px;
     @media (max-width: 767px){
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         letter-spacing: 6px;
     }
     @media (max-width: 576px){
-        font-size: 1.5rem;
+        font-size: 1rem;
         letter-spacing: 3px;
     }
 }
@@ -280,6 +280,12 @@ p {
     }
     @media (max-width: 767px){
         background-image: url(../image/index-768.png);
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @media (max-width: 567px){
+        background-image: url(../image/index-576.png);
         background-size: cover;
         padding-top: 50px;
         padding-bottom: 50px;

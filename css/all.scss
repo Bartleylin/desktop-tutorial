@@ -162,6 +162,19 @@ html, body {
     }
 }
 
+.display-8{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    @media (max-width: 767px){
+        font-size: 1.25rem;
+        letter-spacing: 6px;
+    }
+    @media (max-width: 576px){
+        font-size: 0.75rem;
+        letter-spacing: 3px;
+    }
+}
+
 h5{
     letter-spacing: 2px;
     @media (max-width: 576px){
@@ -287,8 +300,8 @@ p {
     @media (max-width: 567px){
         background-image: url(../image/index-576.png);
         background-size: cover;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 

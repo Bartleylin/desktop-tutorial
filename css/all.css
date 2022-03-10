@@ -12131,6 +12131,10 @@ body {
   font-family: "Noto Sans TC";
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 .fs-7 {
   font-size: 1.5rem;
 }
@@ -12404,6 +12408,51 @@ p {
 @media (max-width: 576px) {
   .support-btn img {
     max-width: 50px;
+  }
+}
+
+/*首圖*/
+.support-page {
+  background-image: url(../image/indexbg.png);
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 1399px) {
+  .support-page {
+    background-image: url(../image/index-1400.png);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .support-page {
+    background-image: url(../image/index-768.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .support-page {
+    background-image: url(../image/index-576.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.support-icon {
+  max-width: 30px;
+}
+
+@media (max-width: 767px) {
+  .support-icon {
+    max-width: 25px;
   }
 }
 

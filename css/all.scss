@@ -4,13 +4,8 @@
 body{
     font-family: 'Noto Sans TC',;
 }
-
 html, body {
     scroll-behavior: smooth;
-}
-
-.fw-light{
-    font-weight: 400 !important;
 }
 
 .fs-7{
@@ -38,7 +33,11 @@ html, body {
     font-size: 0.875rem;
 }
 
-
+.title-line3{
+    max-width: 90px;
+    height: 1px;
+    background-color: white;
+}
 
 /* 導覽列*/
 
@@ -114,6 +113,8 @@ html, body {
         
     }
 }
+
+
 
 .display-2{
     letter-spacing: 8px;
@@ -215,11 +216,7 @@ p {
         max-width: 120px;
     }
 }
-.title-line3{
-    max-width: 80px;
-    height: 1px;
-    background-color: white;
-}
+
 
 
 /*彈出表單*/
@@ -252,6 +249,43 @@ p {
     }
 }
 
+
+
+
+/*首圖*/
+.support-page{
+    background-image: url(../image/indexbg.png);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    @media (max-width: 1399px){
+        background-image: url(../image/index-1400.png);
+        background-size: cover;
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    @media (max-width: 767px){
+        background-image: url(../image/index-768.png);
+        background-size: cover;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    @media (max-width: 576px){
+        background-image: url(../image/index-576.png);
+        background-size: cover;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+}
+
+.support-icon{
+    max-width: 30px;
+    @media (max-width: 767px){
+        max-width: 25px;
+    }
+}
 /*
 .title-line2{
     width: 10%;

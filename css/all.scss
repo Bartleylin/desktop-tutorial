@@ -8,6 +8,18 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.row{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row [class="col-"]{
+    display: flex;
+    flex-direction: column;
+}
+
 .fs-7{
     font-size: 1.5rem;
     @media (max-width: 576px){
@@ -39,7 +51,12 @@ html, body {
         font-size: 1.2rem;
     }
 }
-
+.fs-12{
+    font-size: 1.2rem;
+    @media (max-width: 576px){
+        font-size: 0.8rem;
+    }
+}
 
 .title-line{
     max-width: 70px;
@@ -241,7 +258,10 @@ p {
 
 /*新時代新管理*/
 .new-img{
-    max-width: 672px;
+    max-width: 650px;
+    @media (max-width: 576px){
+        max-width: 650px;
+    }
 }
 .logo2{
     max-width: 160px;
@@ -249,6 +269,31 @@ p {
         max-width: 120px;
     }
 }
+
+
+
+
+
+/*功能*/
+
+.bg-hover:hover{
+    background-color: #F3F3F3;
+    box-shadow: 0px 3px 10pxd #D6D6D6;
+}
+.card{
+    height: 100%;
+}
+.fontion-icon{
+    max-width: 110px;
+}
+.btn-icon{
+    max-width: 32px;
+    @media (max-width: 576px){
+        max-width: 28px;
+    }
+}
+
+
 
 /*表尾*/
 .footer-img{
@@ -325,6 +370,9 @@ p {
         max-width: 25px;
     }
 }
+
+
+
 /*
 .title-line2{
     width: 10%;

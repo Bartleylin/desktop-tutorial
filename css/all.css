@@ -12169,8 +12169,18 @@ html, body {
   font-size: 0.875rem;
 }
 
+.fs-11 {
+  font-size: 1.875rem;
+}
+
+@media (max-width: 576px) {
+  .fs-11 {
+    font-size: 1.2rem;
+  }
+}
+
 .title-line {
-  width: 5%;
+  max-width: 70px;
   height: 3px;
   background-color: #707070;
 }
@@ -12407,6 +12417,16 @@ p {
 /*新時代新管理*/
 .new-img {
   max-width: 672px;
+}
+
+.logo2 {
+  max-width: 160px;
+}
+
+@media (max-width: 576px) {
+  .logo2 {
+    max-width: 120px;
+  }
 }
 
 /*表尾*/

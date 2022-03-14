@@ -12877,6 +12877,14 @@ p {
   height: 100%;
 }
 
+.card-text1 {
+  color: #3D3D3D;
+}
+
+.card-text2 {
+  color: #737373;
+}
+
 .fontion-icon {
   max-width: 110px;
 }

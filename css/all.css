@@ -12879,16 +12879,6 @@ p {
           box-shadow: 0px 3px 6px #D3D3D3 !important;
 }
 
-.card-body {
-  max-height: 460px;
-}
-
-@media (max-height: 767px) {
-  .card-body {
-    max-height: 86px !important;
-  }
-}
-
 /*新時代新管理*/
 .new-img {
   max-width: 650px;

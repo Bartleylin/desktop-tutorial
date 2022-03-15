@@ -259,7 +259,15 @@ p {
 
 
 /*潛在風險*/
-
+.arrow-bnt{
+    max-width: 40px;
+    @media (max-width: 767px){
+        max-width: 40px;
+    }
+    @media (max-width: 567px){
+        max-width: 0px;
+    }
+}
 
 /*新時代新管理*/
 .new-img{

@@ -12360,6 +12360,35 @@ fieldset:disabled .btn {
   color: #E0364E;
 }
 
+@media (max-width: 567px) {
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    display: none;
+    height: 0px;
+    width: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: #E0364E;
+    color: white;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    outline: none;
+    background: white;
+    color: #E0364E;
+  }
+}
+
 .slick-prev {
   left: -50px;
 }
@@ -12369,13 +12398,33 @@ fieldset:disabled .btn {
   right: -50px;
 }
 
+@media (max-width: 1024px) {
+  .slick-prev {
+    left: -40px;
+  }
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -40px;
+  }
+}
+
 .slick-next {
   right: -50px;
 }
 
 [dir="rtl"] .slick-next {
-  left: -50px;
+  left: -40px;
   right: auto;
+}
+
+@media (max-width: 1024px) {
+  .slick-next {
+    right: -40px;
+  }
+  [dir="rtl"] .slick-next {
+    left: -40px;
+    right: auto;
+  }
 }
 
 /* Dots */
@@ -12777,6 +12826,22 @@ p {
 }
 
 /*潛在風險*/
+.arrow-bnt {
+  max-width: 40px;
+}
+
+@media (max-width: 767px) {
+  .arrow-bnt {
+    max-width: 40px;
+  }
+}
+
+@media (max-width: 567px) {
+  .arrow-bnt {
+    max-width: 0px;
+  }
+}
+
 /*新時代新管理*/
 .new-img {
   max-width: 650px;

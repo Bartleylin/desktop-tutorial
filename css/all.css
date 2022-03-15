@@ -12434,7 +12434,7 @@ fieldset:disabled .btn {
 
 .slick-dots {
   position: absolute;
-  bottom: -50px;
+  bottom: -40px;
   list-style: none;
   display: block;
   text-align: center;
@@ -12483,7 +12483,7 @@ fieldset:disabled .btn {
   width: 20px;
   height: 20px;
   font-family: "slick";
-  font-size: 6px;
+  font-size: 20px;
   line-height: 20px;
   text-align: center;
   color: black;
@@ -12588,6 +12588,38 @@ html, body {
 @media (max-width: 576px) {
   .fs-12 {
     font-size: 0.8rem;
+  }
+}
+
+.fs-13 {
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .fs-13 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-13 {
+    font-size: 0.8rem;
+  }
+}
+
+.fs-14 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .fs-14 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-14 {
+    font-size: 1rem;
   }
 }
 
@@ -12839,6 +12871,21 @@ p {
 @media (max-width: 567px) {
   .arrow-bnt {
     max-width: 0px;
+  }
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 3px 6px #D3D3D3 !important;
+          box-shadow: 0px 3px 6px #D3D3D3 !important;
+}
+
+.card-body {
+  max-height: 460px;
+}
+
+@media (max-height: 767px) {
+  .card-body {
+    max-height: 86px !important;
   }
 }
 

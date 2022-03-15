@@ -3,8 +3,8 @@
 // Default Variables
 
 // Slick icon entity codes outputs the following
-// "\2190" outputs ascii character "←"
-// "\2192" outputs ascii character "→"
+// "\2190" outputs ascii character "<"
+// "\2192" outputs ascii character ">"
 // "\2022" outputs ascii character "•"
 
 $slick-font-path: "./fonts/" !default;
@@ -83,21 +83,6 @@ $slick-opacity-not-active: 0.25 !default;
         outline: none;
         background: white;
         color:  #E0364E;
-        &:before {
-            opacity: $slick-opacity-on-hover;
-        }
-    }
-    &.slick-disabled:before {
-        opacity: $slick-opacity-not-active;
-    }
-    &:before {
-        font-family: $slick-font-family;
-        font-size: 20px;
-        line-height: 1;
-        color: $slick-arrow-color;
-        opacity: $slick-opacity-default;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
     }
 }
 
@@ -107,12 +92,6 @@ $slick-opacity-not-active: 0.25 !default;
         left: auto;
         right: -50px;
     }
-    &:before {
-        content: $slick-prev-character;
-        [dir="rtl"] & {
-            content: $slick-next-character;
-        }
-    }
 }
 
 .slick-next {
@@ -120,12 +99,6 @@ $slick-opacity-not-active: 0.25 !default;
     [dir="rtl"] & {
         left: -50px;
         right: auto;
-    }
-    &:before {
-        content: $slick-next-character;
-        [dir="rtl"] & {
-            content: $slick-prev-character;
-        }
     }
 }
 

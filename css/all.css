@@ -12360,28 +12360,6 @@ fieldset:disabled .btn {
   color: #E0364E;
 }
 
-.slick-prev:hover:before, .slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before {
-  opacity: 1;
-}
-
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-  opacity: 0.25;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  font-family: "slick";
-  font-size: 20px;
-  line-height: 1;
-  color: white;
-  opacity: 0.75;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .slick-prev {
   left: -50px;
 }
@@ -12391,14 +12369,6 @@ fieldset:disabled .btn {
   right: -50px;
 }
 
-.slick-prev:before {
-  content: "←";
-}
-
-[dir="rtl"] .slick-prev:before {
-  content: "→";
-}
-
 .slick-next {
   right: -50px;
 }
@@ -12406,14 +12376,6 @@ fieldset:disabled .btn {
 [dir="rtl"] .slick-next {
   left: -50px;
   right: auto;
-}
-
-.slick-next:before {
-  content: "→";
-}
-
-[dir="rtl"] .slick-next:before {
-  content: "←";
 }
 
 /* Dots */

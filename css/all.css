@@ -13120,7 +13120,7 @@ p {
 }
 
 .fontion-img-1 {
-  background-image: url(../image/Function-1.png);
+  background-image: url("../image/Function-1.png");
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
@@ -13128,7 +13128,7 @@ p {
 
 @media (max-width: 576px) {
   .fontion-img-1 {
-    background-image: url(../image/Function-1.png);
+    background-image: url("../image/Function-1.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13137,7 +13137,7 @@ p {
 
 @media (max-width: 350px) {
   .fontion-img-1 {
-    background-image: url(../image/Function-1-m.png);
+    background-image: url("../image/Function-1-m.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13145,7 +13145,7 @@ p {
 }
 
 .fontion-img-2 {
-  background-image: url(../image/Function-2.png);
+  background-image: url("../image/Function-2.png");
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
@@ -13153,7 +13153,7 @@ p {
 
 @media (max-width: 576px) {
   .fontion-img-2 {
-    background-image: url(../image/Function-2.png);
+    background-image: url("../image/Function-2.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13162,7 +13162,7 @@ p {
 
 @media (max-width: 350px) {
   .fontion-img-2 {
-    background-image: url(../image/Function-2.png);
+    background-image: url("../image/Function-2.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13170,7 +13170,7 @@ p {
 }
 
 .fontion-img-3 {
-  background-image: url(../image/Function-3.png);
+  background-image: url("../image/Function-3.png");
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
@@ -13178,7 +13178,7 @@ p {
 
 @media (max-width: 576px) {
   .fontion-img-3 {
-    background-image: url(../image/Function-3.png);
+    background-image: url("../image/Function-3.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13187,7 +13187,7 @@ p {
 
 @media (max-width: 350px) {
   .fontion-img-3 {
-    background-image: url(../image/Function-3-m.png);
+    background-image: url("../image/Function-3-m.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13195,7 +13195,7 @@ p {
 }
 
 .fontion-img-4 {
-  background-image: url(../image/Function-4.png);
+  background-image: url("../image/Function-4.png");
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
@@ -13203,7 +13203,7 @@ p {
 
 @media (max-width: 576px) {
   .fontion-img-4 {
-    background-image: url(../image/Function-4.png);
+    background-image: url("../image/Function-4.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;
@@ -13212,7 +13212,7 @@ p {
 
 @media (max-width: 350px) {
   .fontion-img-4 {
-    background-image: url(../image/Function-4-m.png);
+    background-image: url("../image/Function-4-m.png");
     padding-top: 150px;
     padding-bottom: 150px;
     background-size: cover;

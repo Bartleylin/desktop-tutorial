@@ -8,6 +8,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
+
 .block-distance{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -16,8 +17,8 @@ html, body {
         padding-bottom: 80px;
     }
     @media (max-width: 576px){
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -410,15 +411,19 @@ p {
     }
     &.bg1 {
       background: url("../image/Function-1.png");
+      background-size: cover;
     }
     &.bg2 {
       background: url("../image/Function-2.png");
+      background-size: cover;
     }
     &.bg3 {
       background: url("../image/Function-3.png");
+      background-size: cover;
     }
     &.bg4 {
       background: url("../image/Function-4.png");
+      background-size: cover;
     }
     .cardx {
       background: none;
@@ -451,6 +456,10 @@ p {
 .z-index{
     z-index: 5;
 }
+
+
+
+
 
 /*表尾*/
 .footer-img{

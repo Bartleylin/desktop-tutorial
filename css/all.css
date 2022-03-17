@@ -12519,8 +12519,8 @@ html, body {
 
 @media (max-width: 576px) {
   .block-distance {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -13041,18 +13041,22 @@ p {
 
 .section-bg.bg1 {
   background: url("../image/Function-1.png");
+  background-size: cover;
 }
 
 .section-bg.bg2 {
   background: url("../image/Function-2.png");
+  background-size: cover;
 }
 
 .section-bg.bg3 {
   background: url("../image/Function-3.png");
+  background-size: cover;
 }
 
 .section-bg.bg4 {
   background: url("../image/Function-4.png");
+  background-size: cover;
 }
 
 .section-bg .cardx {

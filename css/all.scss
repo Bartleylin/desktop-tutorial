@@ -369,32 +369,54 @@ p {
     height: 2px;
     background-color: white;
 }
+.title-linex{
+    width: 10%;
+    height: 2px;
+    background-color: gray;
+}
 
 .bottom-line{
-    
     height: 1px;
-    background-color: white;
+    background-color: gray;
 }
 .bottom-line2{
     width: 50px;
     height: 7px;
-    background-color: white;
+    background-color: gray;
 }
+
+
 
 .allbox {
     position: relative;
     .cardx {
-      font-size: 30px;
-      font-weight: bold;
       position: relative;
       z-index: 3;
       background: none;
+      &.now{
+        color: white !important;
+        .bottom-line{
+            height: 1px;
+            background-color: white;
+        }
+        .bottom-line2{
+            width: 50px;
+            height: 7px;
+            background-color: white;
+        }
+        .title-linex{
+            width: 10%;
+            height: 2px;
+            background-color: white;
+        }
+      }
       p{
         display: inline-block;
       }
     }
-  }
-  .section-bg {
+}
+
+.section-bg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -411,48 +433,38 @@ p {
     }
     &.bg1 {
       background: url("../image/Function-1.png");
-      background-size: cover;
     }
     &.bg2 {
       background: url("../image/Function-2.png");
-      background-size: cover;
     }
     &.bg3 {
       background: url("../image/Function-3.png");
-      background-size: cover;
     }
     &.bg4 {
       background: url("../image/Function-4.png");
-      background-size: cover;
     }
     .cardx {
       background: none;
     }
-  }
+}
 
-  .bg-hover:hover{
+
+.bg-hover:hover{
       background:#F3F3F3;
       box-shadow: 0px 3px 10px #F3F3F3;
-  }
+}
 
-  .form1{
-      width: 35rem;
-  }
-
-  .bdp{
-      padding-left: 7px;
-      padding-right: 7px;
-  }
   
-  .offcanvas-body{
+.offcanvas-body{
       &form-floating{
           &input{
               border: none;
           }
       }
-  }
+}
 
  
+  
 .z-index{
     z-index: 5;
 }

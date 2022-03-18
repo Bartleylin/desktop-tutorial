@@ -13042,8 +13042,16 @@ p {
   opacity: 1.0;
 }
 
+.allbox .cardx.now p {
+  display: inline-block;
+  color: white;
+  opacity: 1.0;
+}
+
 .allbox .cardx p {
   display: inline-block;
+  color: white;
+  opacity: 0.2;
 }
 
 .section-bg {

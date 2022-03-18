@@ -373,14 +373,14 @@ p {
 .title-linex{
     width: 10%;
     height: 2px;
-    background-color: white;
+    background-color: white ;
     opacity: 0.2;
 }
 
 .bottom-line{
     height: 1px;
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.2 ;
 }
 .bottom-line2{
     width: 50px;
@@ -388,7 +388,7 @@ p {
     visibility:hidden;
 }
 .now{
-    color: white;
+    color: white ;
     opacity: 0.2;
 }
 
@@ -399,7 +399,7 @@ p {
       z-index: 3;
       background: none;
       &.now{
-        color: white ;
+        color: white;
         opacity: 1.0;
         .bottom-line{
             height: 1px;
@@ -415,12 +415,19 @@ p {
         .title-linex{
             width: 10%;
             height: 2px;
-            background-color: white;
+            background-color: white ;
             opacity: 1.0;
         }
+        p{
+            display: inline-block;
+            color: white ;
+            opacity: 1.0;
+          }
       }
       p{
         display: inline-block;
+        color: white ;
+        opacity: 0.2;
       }
     }
 }

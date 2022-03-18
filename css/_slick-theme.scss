@@ -81,8 +81,6 @@ $slick-opacity-not-active: 0.25 !default;
     outline: none;
     &:hover, &:focus {
         outline: none;
-        background: white;
-        color:  #E0364E;
     }
     @media (max-width: 567px){
         position: absolute;
@@ -92,8 +90,6 @@ $slick-opacity-not-active: 0.25 !default;
         line-height: 0px;
         font-size: 0px;
         cursor: pointer;
-        background: #E0364E;
-        color: white;
         top: 50%;
         -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
@@ -104,8 +100,6 @@ $slick-opacity-not-active: 0.25 !default;
         outline: none;
         &:hover, &:focus {
             outline: none;
-            background: white;
-            color:  #E0364E;
         }
     }
 }

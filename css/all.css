@@ -12356,8 +12356,6 @@ fieldset:disabled .btn {
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
-  background: white;
-  color: #E0364E;
 }
 
 @media (max-width: 567px) {
@@ -12370,8 +12368,6 @@ fieldset:disabled .btn {
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
-    background: #E0364E;
-    color: white;
     top: 50%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -12384,8 +12380,6 @@ fieldset:disabled .btn {
   .slick-next:hover,
   .slick-next:focus {
     outline: none;
-    background: white;
-    color: #E0364E;
   }
 }
 
@@ -12994,18 +12988,25 @@ p {
 .title-linex {
   width: 10%;
   height: 2px;
-  background-color: gray;
+  background-color: white;
+  opacity: 0.2;
 }
 
 .bottom-line {
   height: 1px;
-  background-color: gray;
+  background-color: white;
+  opacity: 0.2;
 }
 
 .bottom-line2 {
   width: 50px;
   height: 7px;
   visibility: hidden;
+}
+
+.now {
+  color: white;
+  opacity: 0.2;
 }
 
 .allbox {
@@ -13019,12 +13020,14 @@ p {
 }
 
 .allbox .cardx.now {
-  color: white !important;
+  color: white;
+  opacity: 1.0;
 }
 
 .allbox .cardx.now .bottom-line {
   height: 1px;
   background-color: white;
+  opacity: 1.0;
 }
 
 .allbox .cardx.now .bottom-line2 {
@@ -13038,6 +13041,7 @@ p {
   width: 10%;
   height: 2px;
   background-color: white;
+  opacity: 1.0;
 }
 
 .allbox .cardx p {

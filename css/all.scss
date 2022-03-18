@@ -373,20 +373,24 @@ p {
 .title-linex{
     width: 10%;
     height: 2px;
-    background-color: gray;
+    background-color: white;
+    opacity: 0.2;
 }
 
 .bottom-line{
     height: 1px;
-    background-color: gray;
+    background-color: white;
+    opacity: 0.2;
 }
 .bottom-line2{
     width: 50px;
     height: 7px;
     visibility:hidden;
 }
-
-
+.now{
+    color: white;
+    opacity: 0.2;
+}
 
 .allbox {
     position: relative;
@@ -395,10 +399,12 @@ p {
       z-index: 3;
       background: none;
       &.now{
-        color: white !important;
+        color: white ;
+        opacity: 1.0;
         .bottom-line{
             height: 1px;
             background-color: white;
+            opacity: 1.0;
         }
         .bottom-line2{
             width: 50px;
@@ -410,6 +416,7 @@ p {
             width: 10%;
             height: 2px;
             background-color: white;
+            opacity: 1.0;
         }
       }
       p{

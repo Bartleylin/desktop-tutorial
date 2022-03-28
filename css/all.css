@@ -12734,7 +12734,7 @@ html, body {
 
 @media (max-width: 768px) {
   .index {
-    background-image: url("../image/index-bg-576.svg");
+    background-image: url("../image/index-bg-576.png");
     background-position: right;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -12743,7 +12743,7 @@ html, body {
 
 @media (max-width: 576px) {
   .index {
-    background-image: url("../image/index-bg-350.svg");
+    background-image: url("../image/index-bg-350.png");
     background-position: right;
     padding-top: 50px;
     padding-bottom: 50px;

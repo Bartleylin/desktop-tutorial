@@ -12734,7 +12734,7 @@ html, body {
 
 @media (max-width: 576px) {
   .index {
-    background-image: url(../image/index-bg-567.png);
+    background-image: url(../image/index-bg-567.svg);
     background-position: right;
     background-size: cover;
     padding-top: 30px;
@@ -13335,36 +13335,50 @@ p {
 
 /*支援頁*/
 .support-page {
-  background-image: url("../image/indexbg.png");
+  background-image: url("../image/index-bg-2.png");
+  background-position: right;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 @media (max-width: 1399px) {
   .support-page {
-    background-image: url("../image/index-1400.png");
+    background-image: url("../image/index-bg-2.png");
+    background-position: right;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .support-page {
+    background-image: url("../image/index-bg-1200.png");
+    background-position: right;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
 @media (max-width: 767px) {
   .support-page {
-    background-image: url("../image/index-768.png");
+    background-image: url("../image/index-bg-767.png");
+    background-position: right;
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   .support-page {
-    background-image: url("../image/index-576.png");
+    background-image: url(../image/sup-bg-567.svg);
+    background-position: right;
     background-size: cover;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 

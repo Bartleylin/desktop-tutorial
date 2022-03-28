@@ -13343,7 +13343,7 @@ p {
 
 /*支援頁*/
 .support-page {
-  background-image: url("../image/index-bg-2.png");
+  background-image: url("../image/index-bg.png");
   background-position: right;
   background-size: cover;
   padding-top: 250px;
@@ -13352,7 +13352,17 @@ p {
 
 @media (max-width: 1399px) {
   .support-page {
-    background-image: url("../image/index-bg-2.png");
+    background-image: url("../image/index-bg.png");
+    background-position: right;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .support-page {
+    background-image: url("../image/index-bg-992.png");
     background-position: right;
     background-size: cover;
     padding-top: 150px;
@@ -13360,33 +13370,31 @@ p {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .support-page {
-    background-image: url("../image/index-bg-1200.png");
+    background-image: url("../image/index-bg-768.png");
     background-position: right;
     background-size: cover;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 125x;
+    padding-bottom: 125px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .support-page {
-    background-image: url("../image/index-bg-767.png");
+    background-image: url("../image/index-bg-576.png");
     background-position: right;
-    background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
 @media (max-width: 576px) {
   .support-page {
-    background-image: url(../image/sup-bg-567.svg);
+    background-image: url("../image/index-bg-350.png");
     background-position: right;
-    background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 

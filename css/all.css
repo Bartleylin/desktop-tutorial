@@ -12695,7 +12695,7 @@ html, body {
 
 /*首圖*/
 .index {
-  background-image: url("../image/index-bg-2.png");
+  background-image: url("../image/index-bg.png");
   background-position: right;
   background-size: cover;
   padding-top: 200px;
@@ -12704,7 +12704,7 @@ html, body {
 
 @media (max-width: 1399px) {
   .index {
-    background-image: url("../image/index-bg-2.png");
+    background-image: url("../image/index-bg.png");
     background-position: right;
     background-size: cover;
     padding-top: 100px;
@@ -12714,7 +12714,7 @@ html, body {
 
 @media (max-width: 1200px) {
   .index {
-    background-image: url("../image/index-bg-1200.png");
+    background-image: url("../image/index-bg-992.png");
     background-position: right;
     background-size: cover;
     padding-top: 120px;
@@ -12722,23 +12722,31 @@ html, body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .index {
-    background-image: url("../image/index-bg-767.png");
+    background-image: url("../image/index-bg-768.png");
     background-position: right;
     background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 100x;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .index {
+    background-image: url("../image/index-bg-576.svg");
+    background-position: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media (max-width: 576px) {
   .index {
-    background-image: url(../image/index-bg-567.svg);
+    background-image: url("../image/index-bg-350.svg");
     background-position: right;
-    background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 

@@ -12540,13 +12540,14 @@ html, body {
   }
 }
 
+/*內文*/
 .fs-8 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 @media (max-width: 576px) {
   .fs-8 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -12564,6 +12565,7 @@ html, body {
   font-size: 0.875rem;
 }
 
+/*副標*/
 .fs-11 {
   font-size: 1.875rem;
 }
@@ -12592,22 +12594,6 @@ html, body {
 
 @media (max-width: 576px) {
   .fs-12 {
-    font-size: 0.8rem;
-  }
-}
-
-.fs-13 {
-  font-size: 1rem;
-}
-
-@media (max-width: 767px) {
-  .fs-13 {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .fs-13 {
     font-size: 0.8rem;
   }
 }
@@ -12710,23 +12696,36 @@ html, body {
 /*首圖*/
 .index {
   background-image: url("../image/index-bg-2.png");
+  background-position: right;
   background-size: cover;
-  padding-top: 147px;
-  padding-bottom: 204px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 @media (max-width: 1399px) {
   .index {
     background-image: url("../image/index-bg-2.png");
+    background-position: right;
     background-size: cover;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .index {
+    background-image: url("../image/index-bg-1200.png");
+    background-position: right;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
 @media (max-width: 767px) {
   .index {
-    background-image: url("../image/index-bg-2.png");
+    background-image: url("../image/index-bg-767.png");
+    background-position: right;
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -12735,7 +12734,8 @@ html, body {
 
 @media (max-width: 576px) {
   .index {
-    background-image: url(../image/index-bg-2.png);
+    background-image: url(../image/index-bg-567.png);
+    background-position: right;
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -13109,7 +13109,7 @@ p {
   z-index: 5;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   .speace1 {
     width: 100%;
     height: 24px;
@@ -13117,16 +13117,37 @@ p {
 }
 
 @media (max-width: 1400px) {
-  .speace2 {
+  .speace1 {
     width: 100%;
     height: 24px;
   }
 }
 
 @media (max-width: 1200px) {
+  .speace1 {
+    width: 100%;
+    height: 55px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .speace2 {
+    width: 100%;
+    height: 24px;
+  }
+}
+
+@media (max-width: 1400px) {
   .speace2 {
     width: 100%;
     height: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .speace2 {
+    width: 100%;
+    height: 28px;
   }
 }
 

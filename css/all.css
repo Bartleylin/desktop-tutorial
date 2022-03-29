@@ -12707,8 +12707,8 @@ html, body {
     background-image: url("../image/index-bg.png");
     background-position: right;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 
@@ -12717,8 +12717,8 @@ html, body {
     background-image: url("../image/index-bg-992.png");
     background-position: right;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 

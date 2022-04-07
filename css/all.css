@@ -13316,6 +13316,10 @@ p {
   }
 }
 
+.ntc {
+  color: #272727;
+}
+
 /*表尾*/
 @media (max-width: 576px) {
   .footer-img {

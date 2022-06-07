@@ -12151,6 +12151,18 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+.modal-header {
+  border: none;
+}
+
+.modal-body {
+  border: none;
+}
+
+.modal-footer {
+  border: none;
+}
+
 .modal-dialog {
   max-width: 40%;
   margin: 1.75rem auto;

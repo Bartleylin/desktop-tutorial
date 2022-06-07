@@ -8,14 +8,6 @@
  box-sizing: border-box;
 }
 
-
-
-
-.bg{
-    width: 100%;
-    background-image: url("../image/index-img/background-img.png");
-}
-
 .fs-1{
     font-size: 4.375rem !important;
 }
@@ -33,7 +25,27 @@
 }
 
 .container{
-    width: 1920px;
+    max-width: 80%;
+    @media (min-width: 1400px){
+        max-width: 83%;
+        } 
+    @media (min-width: 1200px){
+        max-width: 83%;
+        }
+    @media (min-width: 992px){
+        max-width: 83%;
+        }
+    @media (min-width: 768px){
+        max-width: 83%;
+        }
+    @media (min-width: 576px){
+        max-width: 83%;
+        }
+}
+
+.bg{
+    width: 100%;
+    background-image: url("../image/index-img/background-img.png");
 }
 
 .logo-bg{
@@ -52,6 +64,19 @@
 
 .all-img{
     width: 100%;
+}
+
+.index-space1{
+    width: 100%;
+    height: 400px;
+}
+.index-space2{
+    width: 100%;
+    height: 200px;
+}
+.index-space3{
+    width: 100%;
+    height: 128px;
 }
 
 .order-online{
@@ -109,13 +134,18 @@
 
 
 
-.scrollspy-example {
+.scrollspy-example{
     position: relative;
-    height: 1500px;
+    height: 1600px;
     margin-top: 0.5rem;
-    overflow: auto;
+    scrollbar-width: none;
+    overflow-y: scroll;
 }
 
+
+.scrollspy-example::-webkit-scrollbar {
+    display: none;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     color: #fff;
@@ -137,7 +167,9 @@
     margin-bottom: 0;
     list-style: none;
     overflow: auto;
-    padding-left: 285px;
+}
+.nav::-webkit-scrollbar {
+    display: none;
 }
 
 .order-bottom-line{
@@ -279,7 +311,7 @@
 }
 .pay-btn{
     background-color: #F16C5D;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
     color: white;
 }

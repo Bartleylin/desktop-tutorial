@@ -229,12 +229,12 @@
                         </div>
                         <div class="detail-btn d-flex align-items-center justify-content-center p-4">
                             <a class="btn-more p-3 me-3 d-flex align-items-center justify-content-center" href="order-page1.html">
-                                <p class="fs-4 mb-0" style="color:#011A2C;">
+                                <p class="fs-4 mb-0 p-2" style="color:#011A2C;">
                                     繼續選購 More
                                 </p>
                             </a>
                             <a class="btn-add p-3 ms-3 d-flex align-items-center justify-content-center" href="detail-page2.html">
-                                <p class="fs-4 mb-0 text-nowrap" style="color: white;">
+                                <p class="fs-4 mb-0 text-nowrap p-2" style="color: white;">
                                     加入購物車 Add
                                 </p>
                             </a>
@@ -253,7 +253,7 @@
                         </div>
                         <div class="detail-page-line"></div>
                         <div class="detail-btn d-flex flex-row-reverse py-3 px-4">
-                            <a class="discount-btn d-flex align-items-center justify-content-center">
+                            <a type="button" class="discount-btn d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <p class="fs-5 mb-0 py-2 px-3" style="color: white">使用優惠碼</p>
                             </a>
                         </div>
@@ -287,181 +287,182 @@
                             </div>
                             <div class="detail-btn my-4">
                                 <a class="pay-btn d-flex align-items-center justify-content-center">
-                                    <p class="fs-2 mb-0 p3" style="color: white">付款 Pay</p>
+                                    <p class="fs-2 mb-0 p-2" style="color: white">付款 Pay</p>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example mt-5" tabindex="0">
-                    <div class="order-page-title d-flex align-items-center" id="scrollspyHeading1">
-                        <p class="title-text fs-2 me-4">推薦</p>
-                        <p class="subtitle-text fs-4 text-secondary">Recommend</p>
+            </div>
+        </div>
+        <div class="container">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example mt-5" tabindex="0">
+            <div class="order-page-title d-flex align-items-center" id="scrollspyHeading1">
+                <p class="title-text fs-2 me-4">推薦</p>
+                <p class="subtitle-text fs-4 text-secondary">Recommend</p>
+            </div>
+            <div class="row">
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
                 </div>
-                    <div class="row">
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
                         </div>
-                        <div class="col-4 order-card">
-                            <a class="card mb-4" style="width:100%" href="detail-page.html">
-                                <img src="image/order-page-img/order-card-img.png" class="card-img-top">
-                                <div class="discount">
-                                    <p class="fs-5 ps-3">限時 8 折</p>
-                                </div>
-                                <div class="star">
-                                    <img src="image/order-page-img/star.svg" class="all-img p-2">
-                                </div>
-                                <div class="card-body px-4">
-                                    <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
-                                    <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
-                                    <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
-                                </div>
-                            </a>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
                         </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 order-card">
+                    <a class="card mb-4" style="width:100%" href="detail-page.html">
+                        <img src="image/order-page-img/order-card-img.png" class="card-img-top">
+                        <div class="discount">
+                            <p class="fs-5 ps-3">限時 8 折</p>
+                        </div>
+                        <div class="star">
+                            <img src="image/order-page-img/star.svg" class="all-img p-2">
+                        </div>
+                        <div class="card-body px-4">
+                            <h5 class="card-title fs-4 py-3">咖哩拌飯</h5>
+                            <p class="card-text fs-5 text-secondary">咖哩拌飯好吃一直吃，來點食物的介紹等等。</p>
+                            <p class="fs-4 d-flex flex-row-reverse">NT $100</p>
+                        </div>
+                    </a>
+                </div>
 
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -470,6 +471,28 @@
             <p class="fs-3 mb-0 py-3">取消訂單</p>
         </a>
     </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center mb-5">
+        <p class="modal-title fs-2" id="exampleModalLabel">請掃描或輸入優惠碼<p>
+      </div>
+      <div class="modal-body py-0 mb-2">
+        <div class="input-group">
+            <input type="text" class="form-control fs-3 text-secondary p-3" placeholder="輸入或掃描" aria-label="輸入或掃描" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="modal-footer flex-row justify-content-between align-items-center">
+        <button type="button" class="popup-cancel" data-bs-dismiss="modal">
+            <p class="fs-3 mb-0 text-secondary py-3">取消</p>
+        </button>
+        <button type="button" class="popup-enter">
+            <p class="fs-3 mb-0 py-3">確認</p>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

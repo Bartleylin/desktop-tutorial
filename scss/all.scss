@@ -420,6 +420,10 @@
 .modal-footer a{
     text-decoration: none;
 }
+.modal-footer .popup-enter a:hover{
+    color: white;
+    text-decoration: none;
+}
 .modal-body input::-webkit-input-placeholder{
     text-align: center;
 }

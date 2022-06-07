@@ -12201,4 +12201,8 @@ textarea.form-control-lg {
 .modal-footer a {
   text-decoration: none;
 }
+
+.modal-body input::-webkit-input-placeholder {
+  text-align: center;
+}
 /*# sourceMappingURL=all.css.map */

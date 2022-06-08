@@ -25,7 +25,7 @@
 }
 
 .container{
-    max-width: 80%;
+    width: 1920px;
     @media (min-width: 1400px){
         max-width: 83%;
         } 
@@ -50,7 +50,7 @@
 
 .logo-bg{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 48px 96px;
 }
 
@@ -58,7 +58,7 @@
     width: 100%;
     background-color: white;
     border: 20px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 90px 136px;
 }
 
@@ -82,20 +82,20 @@
 .order-online{
     width: 100%;
     background-color: #FCE1B6;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
 }
 
 .cash-with-order{
     width: 100%;
     background-color: #FCE1B6;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
 }
 
 .nav-link{
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: black;
     text-decoration:none;
     position: relative;
@@ -115,7 +115,7 @@
 
 .nav-link.active{
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: black;
     text-decoration:none;
     position: relative;
@@ -159,7 +159,7 @@
 .nav-pills .nav-link {
     background-color: #F5F5F4;
     border: 0;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .nav {
@@ -198,7 +198,7 @@
 }
 .star{
     background-color: #FFCB1E;
-    border-radius: 10px;
+    border-radius: 1rem;
     position: absolute;
     top:30px;
     right: 30px;
@@ -232,7 +232,7 @@
 
 .customization{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 .customization-img{
     overflow: auto;
@@ -300,7 +300,7 @@
 
 .detail{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 .detail-none{
     background-color: white;
@@ -309,7 +309,7 @@
 }
 .discount-btn{
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
     color: white;
 }
@@ -426,4 +426,41 @@
 }
 .modal-body input::-webkit-input-placeholder{
     text-align: center;
+}
+
+
+.credit-card{
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 1rem;
+    padding: 80px 160px;
+}
+.cash{
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 1rem;
+    padding: 80px 160px;
+}
+.Anther-Payment{
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 1rem;
+    padding: 80px 100px;
+}
+
+.payment-cancel{
+    background-color: #F2F2F1;
+    border-radius: 1rem;
+    border: none;
+    width: calc(50% - 16px);
+}
+.payment-back{
+    background-color: #ED7550;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    width: calc(50% - 16px);
 }

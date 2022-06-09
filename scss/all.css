@@ -12294,4 +12294,10 @@ textarea.form-control-lg {
   height: 500px;
   overflow: auto;
 }
+
+.receipt1-cancel {
+  background-color: #F2F2F1;
+  border-radius: 1rem;
+  border: none;
+}
 /*# sourceMappingURL=all.css.map */

@@ -11929,7 +11929,7 @@ textarea.form-control-lg {
 .bg {
   background-image: url("../image/index-img/background-img.png");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
 }
 
@@ -12610,6 +12610,12 @@ textarea.form-control-lg {
 
 .order-completed {
   color: #ED7550;
+}
+
+@media (min-width: 576px) {
+  .receipt-fw .fw-bold {
+    font-weight: 400 !important;
+  }
 }
 
 .no-funtion-background {

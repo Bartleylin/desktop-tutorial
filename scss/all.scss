@@ -116,7 +116,7 @@
 .bg{
     background-image: url("../image/index-img/background-img.png");
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -710,6 +710,12 @@
 
 .order-completed{
     color: #ED7550;
+}
+
+.receipt-fw .fw-bold{
+    @media (min-width: 576px){
+        font-weight: 400 !important;
+    }
 }
 
 .no-funtion-background{

@@ -114,9 +114,10 @@
 }
 
 .bg{
-    width: 100%;
     background-image: url("../image/index-img/background-img.png");
     background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .logo-bg{

@@ -11954,6 +11954,10 @@ textarea.form-control-lg {
   }
 }
 
+.text-color1 {
+  color: #000000;
+}
+
 @media (min-width: 315px) {
   .index-space1 {
     width: 100%;

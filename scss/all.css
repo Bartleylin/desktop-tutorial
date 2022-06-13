@@ -11744,7 +11744,7 @@ textarea.form-control-lg {
 
 @media (min-width: 315px) {
   .fs-1 {
-    font-size: 1.875rem !important;
+    font-size: 1.5625rem !important;
   }
 }
 
@@ -11792,7 +11792,7 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .fs-2 {
-    font-size: 1.875rem !important;
+    font-size: 2.5rem !important;
   }
 }
 
@@ -11822,13 +11822,13 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .fs-3 {
-    font-size: 1.5625rem !important;
+    font-size: 1.25rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .fs-3 {
-    font-size: 1.875rem !important;
+    font-size: 1.5625rem !important;
   }
 }
 
@@ -11852,31 +11852,31 @@ textarea.form-control-lg {
 
 @media (min-width: 315px) {
   .fs-4 {
-    font-size: 0.875rem !important;
+    font-size: 0.75rem !important;
   }
 }
 
 @media (min-width: 576px) {
   .fs-4 {
-    font-size: !important;
+    font-size: 1rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .fs-4 {
-    font-size: !important;
+    font-size: 1.25rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .fs-4 {
-    font-size: !important;
+    font-size: 1.875rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 2.1875rem !important;
   }
 }
 
@@ -11888,31 +11888,31 @@ textarea.form-control-lg {
 
 @media (min-width: 315px) {
   .fs-5 {
-    font-size: 0.625rem !important;
+    font-size: 0.5rem !important;
   }
 }
 
 @media (min-width: 576px) {
   .fs-5 {
-    font-size: !important;
+    font-size: 0.75rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .fs-5 {
-    font-size: !important;
+    font-size: 1rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .fs-5 {
-    font-size: !important;
+    font-size: 1.25rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .fs-5 {
-    font-size: 1.25rem  !important;
+    font-size: 1.5625rem  !important;
   }
 }
 
@@ -11929,6 +11929,7 @@ textarea.form-control-lg {
 .bg {
   width: 100%;
   background-image: url("../image/index-img/background-img.png");
+  background-size: cover;
 }
 
 .logo-bg {
@@ -11940,7 +11941,7 @@ textarea.form-control-lg {
   .eat-in {
     width: 100%;
     background-color: white;
-    border: 10px solid #F2A54C;
+    border: 8px solid #F2A54C;
     border-radius: 10px;
   }
 }
@@ -11952,6 +11953,10 @@ textarea.form-control-lg {
     border: 20px solid #F2A54C;
     border-radius: 10px;
   }
+}
+
+.w-20 {
+  max-width: 20%;
 }
 
 .text-color1 {

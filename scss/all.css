@@ -11742,53 +11742,183 @@ textarea.form-control-lg {
           box-sizing: border-box;
 }
 
-.fs-1 {
-  font-size: 4.375rem !important;
+@media (min-width: 315px) {
+  .fs-1 {
+    font-size: 1.875rem !important;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 576px) {
+  .fs-1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-1 {
+    font-size: 2.8125rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-1 {
+    font-size: 3.125rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .fs-1 {
     font-size: 3.75rem !important;
   }
 }
 
-.fs-2 {
-  font-size: 3.75rem !important;
+@media (min-width: 1400px) {
+  .fs-1 {
+    font-size: 4.375rem !important;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
+  .fs-2 {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .fs-2 {
+    font-size: 1.875rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-2 {
+    font-size: 1.875rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-2 {
+    font-size: 2.8125rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .fs-2 {
     font-size: 3.125rem !important;
   }
 }
 
-.fs-3 {
-  font-size: 3.125rem !important;
+@media (min-width: 1400px) {
+  .fs-2 {
+    font-size: 3.75rem !important;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
+  .fs-3 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .fs-3 {
+    font-size: 1.5625rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-3 {
+    font-size: 1.875rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-3 {
+    font-size: 2.1875rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .fs-3 {
     font-size: 2.5rem !important;
   }
 }
 
-.fs-4 {
-  font-size: 2.5rem !important;
+@media (min-width: 1400px) {
+  .fs-3 {
+    font-size: 3.125rem  !important;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
+  .fs-4 {
+    font-size: 0.875rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .fs-4 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-4 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-4 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .fs-4 {
     font-size: 1.5rem !important;
   }
 }
 
-.fs-5 {
-  font-size: 1.875rem !important;
+@media (min-width: 1400px) {
+  .fs-4 {
+    font-size: 2.5rem !important;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
+  .fs-5 {
+    font-size: 0.625rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .fs-5 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-5 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .fs-5 {
+    font-size: !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .fs-5 {
     font-size: 1.25rem  !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fs-5 {
+    font-size: 1.875rem !important;
   }
 }
 
@@ -11803,46 +11933,84 @@ textarea.form-control-lg {
 
 .logo-bg {
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
-.eat-in {
-  width: 100%;
-  background-color: white;
-  border: 20px solid #F2A54C;
-  border-radius: 1rem;
+@media (min-width: 315px) {
+  .eat-in {
+    width: 100%;
+    background-color: white;
+    border: 10px solid #F2A54C;
+    border-radius: 10px;
+  }
 }
 
-.index-space1 {
-  width: 100%;
-  height: 400px;
+@media (min-width: 576px) {
+  .eat-in {
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 10px;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
+  .index-space1 {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+@media (min-width: 576px) {
+  .index-space1 {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
   .index-space1 {
     width: 100%;
     height: 200px;
   }
 }
 
-.index-space2 {
-  width: 100%;
-  height: 200px;
-}
-
-@media (max-width: 1080px) {
+@media (min-width: 315px) {
   .index-space2 {
     width: 100%;
-    height: 100px;
+    height: 30px;
   }
 }
 
-.index-space3 {
-  width: 100%;
-  height: 128px;
+@media (min-width: 576px) {
+  .index-space2 {
+    width: 100%;
+    height: 80px;
+  }
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 768px) {
+  .index-space2 {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media (min-width: 315px) {
+  .index-space3 {
+    width: 100%;
+    height: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .index-space3 {
+    width: 100%;
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
   .index-space3 {
     width: 100%;
     height: 64px;
@@ -11852,20 +12020,20 @@ textarea.form-control-lg {
 .order-online {
   width: 100%;
   background-color: #FCE1B6;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: none;
 }
 
 .cash-with-order {
   width: 100%;
   background-color: #FCE1B6;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: none;
 }
 
 .nav-link {
   background-color: #F5F5F4;
-  border-radius: 1rem;
+  border-radius: 10px;
   color: black;
   text-decoration: none;
   position: relative;
@@ -11885,7 +12053,7 @@ textarea.form-control-lg {
 
 .nav-link.active {
   background-color: #F5F5F4;
-  border-radius: 1rem;
+  border-radius: 10px;
   color: black;
   text-decoration: none;
   position: relative;
@@ -12231,48 +12399,123 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-.credit-card {
-  width: 100%;
-  background-color: white;
-  border: 20px solid #F2A54C;
-  border-radius: 1rem;
-  position: relative;
+@media (min-width: 315px) {
+  .credit-card {
+    width: 100%;
+    background-color: white;
+    border: 10px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
 }
 
-.cash {
-  width: 100%;
-  background-color: white;
-  border: 20px solid #F2A54C;
-  border-radius: 1rem;
-  position: relative;
+@media (min-width: 768px) {
+  .credit-card {
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
 }
 
-.Anther-Payment {
-  width: 100%;
-  background-color: white;
-  border: 20px solid #F2A54C;
-  border-radius: 1rem;
-  position: relative;
+@media (min-width: 315px) {
+  .cash {
+    width: 100%;
+    background-color: white;
+    border: 10px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .cash {
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 315px) {
+  .Anther-Payment {
+    width: 100%;
+    background-color: white;
+    border: 10px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .Anther-Payment {
+    width: 100%;
+    background-color: white;
+    border: 20px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
 }
 
 .payment-cancel {
   background-color: #F2F2F1;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: none;
   width: calc(50% - 16px);
 }
 
-.payment-back {
-  background-color: #ED7550;
-  border-radius: 1rem;
-  border: none;
-  color: white;
-  width: calc(50% - 16px);
+@media (min-width: 315px) {
+  .payment-cancel {
+    background-color: #F2F2F1;
+    border-radius: 10px;
+    border: none;
+    width: calc(50% - 4px);
+  }
 }
 
-.total-amount {
-  border-radius: 1rem;
-  border: 20px solid #ED7550;
+@media (min-width: 768px) {
+  .payment-cancel {
+    background-color: #F2F2F1;
+    border-radius: 10px;
+    border: none;
+    width: calc(50% - 16px);
+  }
+}
+
+@media (min-width: 315px) {
+  .payment-back {
+    background-color: #ED7550;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: calc(50% - 4px);
+  }
+}
+
+@media (min-width: 768px) {
+  .payment-back {
+    background-color: #ED7550;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: calc(50% - 16px);
+  }
+}
+
+@media (min-width: 315px) {
+  .total-amount {
+    border-radius: 10px;
+    border: 10px solid #ED7550;
+  }
+}
+
+@media (min-width: 768px) {
+  .total-amount {
+    border-radius: 10px;
+    border: 20px solid #ED7550;
+  }
 }
 
 .total-amount-title {
@@ -12284,10 +12527,20 @@ textarea.form-control-lg {
   color: #ED7550;
 }
 
-.total-amount-content {
-  background-color: white;
-  border-radius: 1rem;
-  border: 20px solid #F2A54C;
+@media (min-width: 315px) {
+  .total-amount-content {
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid #F2A54C;
+  }
+}
+
+@media (min-width: 768px) {
+  .total-amount-content {
+    background-color: white;
+    border-radius: 10px;
+    border: 20px solid #F2A54C;
+  }
 }
 
 .total-amount-content-tittle {
@@ -12297,25 +12550,51 @@ textarea.form-control-lg {
 
 .total-amount {
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
-.receipt1-line {
+.receipt-line1 {
   background-color: #707070;
   height: 100%;
   width: 1px;
 }
 
-.receipt1-detail-summary {
-  background-color: white;
+.receipt-line2 {
+  background-color: #707070;
   width: 100%;
-  height: 500px;
-  overflow: auto;
+  height: 1px;
+}
+
+@media (min-width: 315px) {
+  .receipt1-detail-summary {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .receipt1-detail-summary {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .receipt1-detail-summary {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+  }
 }
 
 .receipt1-cancel {
   background-color: #F2F2F1;
-  border-radius: 1rem;
+  border-radius: 10px;
   border: none;
 }
 
@@ -12333,8 +12612,29 @@ textarea.form-control-lg {
   height: 100%;
 }
 
-.no-funtion-border {
-  border: 20px solid #535353;
-  border-radius: 1rem;
+@media (min-width: 315px) {
+  .no-funtion-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #404040;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 315px) {
+  .no-funtion-border {
+    border: 10px solid #535353;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .no-funtion-border {
+    border: 20px solid #535353;
+    border-radius: 10px;
+  }
 }
 /*# sourceMappingURL=all.css.map */

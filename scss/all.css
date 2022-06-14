@@ -12502,18 +12502,6 @@ textarea.form-control-lg {
   }
 }
 
-@media (min-width: 315px) {
-  .detail-summary-img button img {
-    width: 60% !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .detail-summary-img button img {
-    width: 100%;
-  }
-}
-
 .detail-summary-content {
   width: 70%;
   overflow: hidden;
@@ -12523,11 +12511,31 @@ textarea.form-control-lg {
   -webkit-box-orient: vertical;
 }
 
-.detail-summary button {
-  background-color: white;
-  border: none;
-  width: 40px;
-  height: 40px;
+@media (min-width: 315px) {
+  .detail-summary button {
+    background-color: white;
+    border: none;
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .detail-summary button {
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .detail-summary button {
+    background-color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .cancel-btn {
@@ -12891,6 +12899,12 @@ textarea.form-control-lg {
   .no-funtion-border {
     border: 20px solid #535353;
     border-radius: 10px;
+  }
+}
+
+@media (min-width: 315px) {
+  .oc-img {
+    max-width: 30% !important;
   }
 }
 /*# sourceMappingURL=all.css.map */

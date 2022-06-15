@@ -12043,6 +12043,13 @@ textarea.form-control-lg {
   border: none;
 }
 
+.order-fix {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .cash-with-order {
   width: 100%;
   background-color: #FCE1B6;
@@ -12063,10 +12070,10 @@ textarea.form-control-lg {
     display: block;
     position: absolute;
     left: 0;
-    bottom: -18px;
+    bottom: -14px;
     background-color: #F5F5F4;
     width: 100%;
-    height: 10px;
+    height: 6px;
     border-radius: 10px;
   }
 }
@@ -12105,10 +12112,10 @@ textarea.form-control-lg {
     display: block;
     position: absolute;
     left: 0;
-    bottom: -18px;
+    bottom: -14px;
     background-color: #ED7550;
     width: 100%;
-    height: 10px;
+    height: 6px;
     border-radius: 10px;
   }
 }
@@ -12137,7 +12144,7 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .order-bottom-line {
     width: 100%;
-    height: 10px;
+    height: 6px;
     background-color: #F5F5F4;
   }
 }
@@ -12153,20 +12160,16 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .scrollspy-example {
     position: relative;
-    height: 500px;
     margin-top: 0.5rem;
     scrollbar-width: none;
-    overflow-y: scroll;
   }
 }
 
 @media (min-width: 768px) {
   .scrollspy-example {
     position: relative;
-    height: 1600px;
     margin-top: 0.5rem;
     scrollbar-width: none;
-    overflow-y: scroll;
   }
 }
 

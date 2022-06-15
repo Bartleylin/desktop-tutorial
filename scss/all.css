@@ -11942,12 +11942,21 @@ textarea.form-control-lg {
   .eat-in {
     width: 100%;
     background-color: white;
-    border: 8px solid #F2A54C;
+    border: 6px solid #F2A54C;
     border-radius: 10px;
   }
 }
 
 @media (min-width: 576px) {
+  .eat-in {
+    width: 100%;
+    background-color: white;
+    border: 8px solid #F2A54C;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) {
   .eat-in {
     width: 100%;
     background-color: white;
@@ -12661,7 +12670,17 @@ textarea.form-control-lg {
   .credit-card {
     width: 100%;
     background-color: white;
-    border: 10px solid #F2A54C;
+    border: 6px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .credit-card {
+    width: 100%;
+    background-color: white;
+    border: 8px solid #F2A54C;
     border-radius: 10px;
     position: relative;
   }
@@ -12681,7 +12700,17 @@ textarea.form-control-lg {
   .cash {
     width: 100%;
     background-color: white;
-    border: 10px solid #F2A54C;
+    border: 6px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .cash {
+    width: 100%;
+    background-color: white;
+    border: 8px solid #F2A54C;
     border-radius: 10px;
     position: relative;
   }
@@ -12701,7 +12730,17 @@ textarea.form-control-lg {
   .Anther-Payment {
     width: 100%;
     background-color: white;
-    border: 10px solid #F2A54C;
+    border: 6px solid #F2A54C;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .Anther-Payment {
+    width: 100%;
+    background-color: white;
+    border: 8px solid #F2A54C;
     border-radius: 10px;
     position: relative;
   }
@@ -12764,7 +12803,14 @@ textarea.form-control-lg {
 
 @media (min-width: 315px) {
   .total-amount {
-    border-radius: 10px;
+    border-radius: 6px;
+    border: 10px solid #ED7550;
+  }
+}
+
+@media (min-width: 576px) {
+  .total-amount {
+    border-radius: 8px;
     border: 10px solid #ED7550;
   }
 }
@@ -12788,8 +12834,16 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .total-amount-content {
     background-color: white;
-    border-radius: 10px;
-    border: 10px solid #F2A54C;
+    border-radius: 6px;
+    border: 6px solid #F2A54C;
+  }
+}
+
+@media (min-width: 576px) {
+  .total-amount-content {
+    background-color: white;
+    border-radius: 8px;
+    border: 6px solid #F2A54C;
   }
 }
 
@@ -12889,6 +12943,13 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 315px) {
+  .no-funtion-border {
+    border: 6px solid #535353;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 576px) {
   .no-funtion-border {
     border: 10px solid #535353;
     border-radius: 10px;

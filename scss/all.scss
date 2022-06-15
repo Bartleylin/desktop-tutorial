@@ -129,10 +129,16 @@
     @media (min-width: 315px){
         width: 100%;
         background-color: white;
-        border: 8px solid #F2A54C;
+        border: 6px solid #F2A54C;
         border-radius: 10px;
     }
     @media (min-width: 576px){
+        width: 100%;
+        background-color: white;
+        border: 8px solid #F2A54C;
+        border-radius: 10px;
+    }
+    @media (min-width: 768px){
         width: 100%;
         background-color: white;
         border: 20px solid #F2A54C;
@@ -748,7 +754,14 @@
     @media (min-width: 315px){
         width: 100%;
         background-color: white;
-        border: 10px solid #F2A54C;
+        border: 6px solid #F2A54C;
+        border-radius: 10px;
+        position: relative;
+    }
+    @media (min-width: 576px){
+        width: 100%;
+        background-color: white;
+        border: 8px solid #F2A54C;
         border-radius: 10px;
         position: relative;
     }
@@ -764,7 +777,14 @@
     @media (min-width: 315px){
         width: 100%;
         background-color: white;
-        border: 10px solid #F2A54C;
+        border: 6px solid #F2A54C;
+        border-radius: 10px;
+        position: relative;
+    }
+    @media (min-width: 576px){
+        width: 100%;
+        background-color: white;
+        border: 8px solid #F2A54C;
         border-radius: 10px;
         position: relative;
     }
@@ -780,7 +800,14 @@
     @media (min-width: 315px){
         width: 100%;
         background-color: white;
-        border: 10px solid #F2A54C;
+        border: 6px solid #F2A54C;
+        border-radius: 10px;
+        position: relative;
+    }
+    @media (min-width: 576px){
+        width: 100%;
+        background-color: white;
+        border: 8px solid #F2A54C;
         border-radius: 10px;
         position: relative;
     }
@@ -830,7 +857,11 @@
 
 .total-amount{
     @media (min-width: 315px){
-        border-radius: 10px;
+        border-radius: 6px;
+        border: 10px solid #ED7550;
+    }
+    @media (min-width: 576px){
+        border-radius: 8px;
         border: 10px solid #ED7550;
     }
     @media (min-width: 768px){
@@ -850,8 +881,13 @@
 .total-amount-content{
     @media (min-width: 315px){
         background-color: white;
-        border-radius: 10px;
-        border: 10px solid #F2A54C;
+        border-radius: 6px;
+        border: 6px solid #F2A54C;
+    }
+    @media (min-width: 576px){
+        background-color: white;
+        border-radius: 8px;
+        border: 6px solid #F2A54C;
     }
     @media (min-width: 768px){
         background-color: white;
@@ -942,6 +978,10 @@
 
 .no-funtion-border{
     @media (min-width: 315px){
+        border: 6px solid #535353;
+        border-radius: 10px;
+    }
+    @media (min-width: 576px){
         border: 10px solid #535353;
         border-radius: 10px;
     }

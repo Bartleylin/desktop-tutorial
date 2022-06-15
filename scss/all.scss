@@ -70,7 +70,7 @@
 }
 .fs-4{
     @media (min-width: 315px){
-        font-size: 0.75rem!important;
+        font-size: 0.875rem!important;
     }
     @media (min-width: 576px){
         font-size:  1rem!important;
@@ -90,7 +90,7 @@
 }
 .fs-5{
     @media (min-width: 315px){
-        font-size: 0.5rem!important;
+        font-size: 0.625rem!important;
     }
     @media (min-width: 576px){
         font-size:  0.875rem!important;
@@ -216,7 +216,7 @@
             display: block;
             position: absolute;
             left: 0;
-            bottom: -25px;
+            bottom: -18px;
             background-color:  #F5F5F4;
             width: 100%;
             height: 10px;
@@ -256,7 +256,7 @@
             display: block;
             position: absolute;
             left: 0;
-            bottom: -25px;
+            bottom: -18px;
             background-color:  #ED7550;
             width: 100%;
             height: 10px;

@@ -11943,7 +11943,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 6px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 6px;
   }
 }
 
@@ -11961,7 +11961,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 20px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 }
 
@@ -12060,49 +12060,55 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .nav-link {
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 6px;
     color: black;
     text-decoration: none;
     position: relative;
-  }
-  .nav-link::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -14px;
-    background-color: #F5F5F4;
-    width: 100%;
-    height: 6px;
-    border-radius: 10px;
   }
 }
 
 @media (min-width: 768px) {
   .nav-link {
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 12px;
     color: black;
     text-decoration: none;
     position: relative;
   }
-  .nav-link::before {
+}
+
+@media (min-width: 315px) {
+  .order-bottom-line::before {
     content: "";
     display: block;
     position: absolute;
     left: 0;
-    bottom: -38px;
+    bottom: 18px;
+    background-color: #F5F5F4;
+    width: 100%;
+    height: 6px;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .order-bottom-line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 26px;
     background-color: #F5F5F4;
     width: 100%;
     height: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 }
 
 @media (min-width: 315px) {
   .nav-link.active {
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 6px;
     color: black;
     text-decoration: none;
     position: relative;
@@ -12116,14 +12122,14 @@ textarea.form-control-lg {
     background-color: #ED7550;
     width: 100%;
     height: 6px;
-    border-radius: 10px;
+    border-radius: 6px;
   }
 }
 
 @media (min-width: 768px) {
   .nav-link.active {
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 12px;
     color: black;
     text-decoration: none;
     position: relative;
@@ -12137,23 +12143,7 @@ textarea.form-control-lg {
     background-color: #ED7550;
     width: 100%;
     height: 15px;
-    border-radius: 10px;
-  }
-}
-
-@media (min-width: 315px) {
-  .order-bottom-line {
-    width: 100%;
-    height: 6px;
-    background-color: #F5F5F4;
-  }
-}
-
-@media (min-width: 768px) {
-  .order-bottom-line {
-    width: 100%;
-    height: 15px;
-    background-color: #F5F5F4;
+    border-radius: 12px;
   }
 }
 
@@ -12186,10 +12176,20 @@ textarea.form-control-lg {
   color: #011A2C;
 }
 
-.nav-pills .nav-link {
-  background-color: #F5F5F4;
-  border: 0;
-  border-radius: 10px;
+@media (min-width: 315px) {
+  .nav-pills .nav-link {
+    background-color: #F5F5F4;
+    border: 0;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-pills .nav-link {
+    background-color: #F5F5F4;
+    border: 0;
+    border-radius: 12px;
+  }
 }
 
 .nav {
@@ -12305,9 +12305,18 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.customization {
-  background-color: white;
-  border-radius: 1rem;
+@media (min-width: 315px) {
+  .customization {
+    background-color: white;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .customization {
+    background-color: white;
+    border-radius: 12px;
+  }
 }
 
 .customization-img {
@@ -12415,7 +12424,7 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .btn-more {
     background-color: #F2F2F1;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
     color: #011A2C;
     width: calc(50% - 8px);
@@ -12425,7 +12434,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .btn-more {
     background-color: #F2F2F1;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     color: #011A2C;
     width: calc(50% - 16px);
@@ -12435,7 +12444,7 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .btn-add {
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
     color: white;
     width: calc(50% - 8px);
@@ -12445,16 +12454,25 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .btn-add {
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     color: white;
     width: calc(50% - 16px);
   }
 }
 
-.detail {
-  background-color: white;
-  border-radius: 10px;
+@media (min-width: 315px) {
+  .detail {
+    background-color: white;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 315px) {
+  .detail {
+    background-color: white;
+    border-radius: 12px;
+  }
 }
 
 @media (min-width: 315px) {
@@ -12473,18 +12491,40 @@ textarea.form-control-lg {
   }
 }
 
-.discount-btn {
-  background-color: #ED7550;
-  border-radius: 10px;
-  border: none;
-  color: white;
+@media (min-width: 315px) {
+  .discount-btn {
+    background-color: #ED7550;
+    border-radius: 6px;
+    border: none;
+    color: white;
+  }
 }
 
-.pay-btn {
-  background-color: #F16C5D;
-  border-radius: 10px;
-  border: none;
-  color: white;
+@media (min-width: 768px) {
+  .discount-btn {
+    background-color: #ED7550;
+    border-radius: 12px;
+    border: none;
+    color: white;
+  }
+}
+
+@media (min-width: 315px) {
+  .pay-btn {
+    background-color: #F16C5D;
+    border-radius: 6px;
+    border: none;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .pay-btn {
+    background-color: #F16C5D;
+    border-radius: 12px;
+    border: none;
+    color: white;
+  }
 }
 
 .detail-btn a {
@@ -12556,8 +12596,8 @@ textarea.form-control-lg {
   .detail-summary button {
     background-color: white;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
   }
 }
 
@@ -12571,9 +12611,18 @@ textarea.form-control-lg {
   color: #011A2C;
 }
 
-.modal-content {
-  border-radius: 10px;
-  border: none;
+@media (min-width: 315px) {
+  .modal-content {
+    border-radius: 6px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    border-radius: 12px;
+    border: none;
+  }
 }
 
 .modal {
@@ -12618,16 +12667,16 @@ textarea.form-control-lg {
   .popup-cancel {
     border: none;
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 6px;
     width: calc(50% - 8px);
   }
 }
 
-@media (min-width: 315px) {
+@media (min-width: 768px) {
   .popup-cancel {
     border: none;
     background-color: #F5F5F4;
-    border-radius: 10px;
+    border-radius: 12px;
     width: calc(50% - 16px);
   }
 }
@@ -12636,35 +12685,54 @@ textarea.form-control-lg {
   .popup-enter {
     border: none;
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 6px;
     color: white;
     width: calc(50% - 8px);
   }
 }
 
-@media (min-width: 315px) {
+@media (min-width: 768px) {
   .popup-enter {
     border: none;
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 12px;
     color: white;
     width: calc(50% - 16px);
   }
 }
 
-.form-control {
-  border: 1px solid #707070;
-  background-color: white;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (min-width: 315px) {
+  .form-control {
+    border: 1px solid #707070;
+    background-color: white;
+    border-radius: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-control {
+    border: 1px solid #707070;
+    background-color: white;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .modal-footer a {
@@ -12685,7 +12753,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 6px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 6px;
     position: relative;
   }
 }
@@ -12705,7 +12773,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 20px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 12px;
     position: relative;
   }
 }
@@ -12715,7 +12783,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 6px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 6px;
     position: relative;
   }
 }
@@ -12735,7 +12803,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 20px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 12px;
     position: relative;
   }
 }
@@ -12745,7 +12813,7 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 6px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 6px;
     position: relative;
   }
 }
@@ -12765,14 +12833,14 @@ textarea.form-control-lg {
     width: 100%;
     background-color: white;
     border: 20px solid #F2A54C;
-    border-radius: 10px;
+    border-radius: 12px;
     position: relative;
   }
 }
 
 .payment-cancel {
   background-color: #F2F2F1;
-  border-radius: 10px;
+  border-radius: 6px;
   border: none;
   width: calc(50% - 16px);
 }
@@ -12789,7 +12857,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .payment-cancel {
     background-color: #F2F2F1;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     width: calc(50% - 16px);
   }
@@ -12798,7 +12866,7 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .payment-back {
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
     color: white;
     width: calc(50% - 4px);
@@ -12808,7 +12876,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) {
   .payment-back {
     background-color: #ED7550;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     color: white;
     width: calc(50% - 16px);
@@ -12818,7 +12886,7 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .total-amount {
     border-radius: 6px;
-    border: 10px solid #ED7550;
+    border: 6px solid #ED7550;
   }
 }
 
@@ -12831,7 +12899,7 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .total-amount {
-    border-radius: 10px;
+    border-radius: 12px;
     border: 20px solid #ED7550;
   }
 }
@@ -12857,7 +12925,7 @@ textarea.form-control-lg {
   .total-amount-content {
     background-color: white;
     border-radius: 8px;
-    border: 6px solid #F2A54C;
+    border: 10px solid #F2A54C;
   }
 }
 
@@ -12874,9 +12942,25 @@ textarea.form-control-lg {
   color: white;
 }
 
-.total-amount {
-  background-color: white;
-  border-radius: 10px;
+@media (min-width: 315px) {
+  .total-amount {
+    background-color: white;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 576px) {
+  .total-amount {
+    background-color: white;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .total-amount {
+    background-color: white;
+    border-radius: 12px;
+  }
 }
 
 .receipt-line1 {
@@ -12918,10 +13002,28 @@ textarea.form-control-lg {
   }
 }
 
-.receipt1-cancel {
-  background-color: #F2F2F1;
-  border-radius: 10px;
-  border: none;
+@media (min-width: 315px) {
+  .receipt1-cancel {
+    background-color: #F2F2F1;
+    border-radius: 6px;
+    border: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .receipt1-cancel {
+    background-color: #F2F2F1;
+    border-radius: 8px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .receipt1-cancel {
+    background-color: #F2F2F1;
+    border-radius: 12px;
+    border: none;
+  }
 }
 
 .order-completed {
@@ -12959,21 +13061,21 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .no-funtion-border {
     border: 6px solid #535353;
-    border-radius: 10px;
+    border-radius: 6px;
   }
 }
 
 @media (min-width: 576px) {
   .no-funtion-border {
     border: 10px solid #535353;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 }
 
 @media (min-width: 768px) {
   .no-funtion-border {
     border: 20px solid #535353;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 }
 

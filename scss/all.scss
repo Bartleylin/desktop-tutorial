@@ -130,7 +130,7 @@
         width: 100%;
         background-color: white;
         border: 6px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 6px;
     }
     @media (min-width: 576px){
         width: 100%;
@@ -142,7 +142,7 @@
         width: 100%;
         background-color: white;
         border: 20px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 12px;
     }
 }
 .w-20{
@@ -216,41 +216,50 @@
     border: none;
 }
 
+
 .nav-link{
     @media (min-width: 315px){
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 6px;
         color: black;
         text-decoration:none;
         position: relative;
-        &::before{
-            content:"";
-            display: block;
-            position: absolute;
-            left: 0;
-            bottom: -14px;
-            background-color:  #F5F5F4;
-            width: 100%;
-            height: 6px;
-            border-radius: 10px;
-        }
     }
     @media (min-width: 768px){
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 12px;
         color: black;
         text-decoration:none;
         position: relative;
+    }
+}
+
+
+.order-bottom-line{
+    @media (min-width: 315px){
         &::before{
             content:"";
             display: block;
             position: absolute;
             left: 0;
-            bottom: -38px;
+            bottom: 18px;
+            background-color:  #F5F5F4;
+            width: 100%;
+            height: 6px;
+            border-radius: 6px;
+        }
+    }
+    @media (min-width: 768px){
+        &::before{
+            content:"";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 26px;
             background-color:  #F5F5F4;
             width: 100%;
             height: 15px;
-            border-radius: 10px;
+            border-radius: 12px;
         }
     }
 }
@@ -259,7 +268,7 @@
 .nav-link.active{
     @media (min-width: 315px){
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 6px;
         color: black;
         text-decoration:none;
         position: relative;
@@ -272,12 +281,12 @@
             background-color:  #ED7550;
             width: 100%;
             height: 6px;
-            border-radius: 10px;
+            border-radius: 6px;
         }
     }
     @media (min-width: 768px){
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 12px;
         color: black;
         text-decoration:none;
         position: relative;
@@ -290,24 +299,10 @@
             background-color:  #ED7550;
             width: 100%;
             height: 15px;
-            border-radius: 10px;
+            border-radius: 12px;
         }
     }
 }
-
-.order-bottom-line{
-    @media (min-width: 315px){
-        width: 100%;
-        height: 6px;
-        background-color: #F5F5F4;
-    }
-    @media (min-width: 768px){
-        width: 100%;
-        height: 15px;
-        background-color: #F5F5F4;
-    }
-}
-
 
 
 .scrollspy-example{
@@ -338,9 +333,16 @@
 }
 
 .nav-pills .nav-link {
-    background-color: #F5F5F4;
-    border: 0;
-    border-radius: 10px;
+    @media (min-width: 315px){
+        background-color: #F5F5F4;
+        border: 0;
+        border-radius: 6px;
+    }
+    @media (min-width: 768px){
+        background-color: #F5F5F4;
+        border: 0;
+        border-radius: 12px;
+    }
 }
 
 .nav {
@@ -349,6 +351,8 @@
     list-style: none;
     overflow: auto;
 }
+
+
 .nav::-webkit-scrollbar {
     display: none;
 }
@@ -437,8 +441,14 @@
 }
 
 .customization{
-    background-color: white;
-    border-radius: 1rem;
+    @media (min-width: 315px){
+        background-color: white;
+        border-radius: 6px;
+    }
+    @media (min-width: 768px){
+        background-color: white;
+        border-radius: 12px;
+    }
 }
 .customization-img{
     overflow: auto;
@@ -448,7 +458,6 @@
    @media (min-width: 315px){
        width: 40%;
    }
-    
 }
 
 .customization-gray{
@@ -534,14 +543,14 @@
 .btn-more{
     @media (min-width: 315px){
         background-color: #F2F2F1;
-        border-radius: 10px;
+        border-radius: 6px;
         border: none;
         color: #011A2C;
         width: calc(50% - 8px);
     }
     @media (min-width: 768px){
         background-color: #F2F2F1;
-        border-radius: 10px;
+        border-radius: 12px;
         border: none;
         color: #011A2C;
         width: calc(50% - 16px);
@@ -551,14 +560,14 @@
 .btn-add{
     @media (min-width: 315px){
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 6px;
         border: none;
         color: white;
         width: calc(50% - 8px);
         }
     @media (min-width: 768px){
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 12px;
         border: none;
         color: white;
         width: calc(50% - 16px);
@@ -566,8 +575,14 @@
 }
 
 .detail{
-    background-color: white;
-    border-radius: 10px;
+    @media (min-width: 315px){
+        background-color: white;
+        border-radius: 6px;
+        }
+    @media (min-width: 315px){
+        background-color: white;
+        border-radius: 12px;
+        }
 }
 .detail-none{
     @media (min-width: 315px){
@@ -583,16 +598,32 @@
     
 }
 .discount-btn{
-    background-color: #ED7550;
-    border-radius: 10px;
-    border: none;
-    color: white;
+    @media (min-width: 315px){
+        background-color: #ED7550;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        }
+    @media (min-width: 768px){
+        background-color: #ED7550;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        }
 }
 .pay-btn{
-    background-color: #F16C5D;
-    border-radius: 10px;
-    border: none;
-    color: white;
+    @media (min-width: 315px){
+        background-color: #F16C5D;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        }
+    @media (min-width: 768px){
+        background-color: #F16C5D;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        }
 }
 .detail-btn a{
     text-decoration: none;
@@ -653,8 +684,8 @@
     @media (min-width: 1080px){
         background-color: white;
         border: none;
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
         } 
 }
 
@@ -670,9 +701,16 @@
 
 
 .modal-content{
-    border-radius: 10px;
-    border: none;
+    @media (min-width: 315px){
+        border-radius: 6px;
+        border: none;
+        } 
+    @media (min-width: 768px){
+        border-radius: 12px;
+        border: none;
+        } 
 }
+
 .modal {
     position: fixed;
     top: 30%;
@@ -710,13 +748,13 @@
     @media (min-width: 315px){
         border: none;
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 6px;
         width: calc(50% - 8px);
         }
-    @media (min-width: 315px){
+    @media (min-width: 768px){
         border: none;
         background-color: #F5F5F4;
-        border-radius: 10px;
+        border-radius: 12px;
         width: calc(50% - 16px);
         }
 
@@ -725,14 +763,14 @@
     @media (min-width: 315px){
         border: none;
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 6px;
         color: white;
         width: calc(50% - 8px);
         }
-    @media (min-width: 315px){
+    @media (min-width: 768px){
         border: none;
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 12px;
         color: white;
         width: calc(50% - 16px);
         }
@@ -741,12 +779,22 @@
 
 
 .form-control{
-    border: 1px solid #707070;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @media (min-width: 315px){
+        border: 1px solid #707070;
+        background-color: white;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    @media (min-width: 768px){
+        border: 1px solid #707070;
+        background-color: white;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
 }
 .modal-footer a{
     text-decoration: none;
@@ -765,7 +813,7 @@
         width: 100%;
         background-color: white;
         border: 6px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 6px;
         position: relative;
     }
     @media (min-width: 576px){
@@ -779,7 +827,7 @@
         width: 100%;
         background-color: white;
         border: 20px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 12px;
         position: relative;
     }
 }
@@ -788,7 +836,7 @@
         width: 100%;
         background-color: white;
         border: 6px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 6px;
         position: relative;
     }
     @media (min-width: 576px){
@@ -802,7 +850,7 @@
         width: 100%;
         background-color: white;
         border: 20px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 12px;
         position: relative;
     }
 }
@@ -811,7 +859,7 @@
         width: 100%;
         background-color: white;
         border: 6px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 6px;
         position: relative;
     }
     @media (min-width: 576px){
@@ -825,14 +873,14 @@
         width: 100%;
         background-color: white;
         border: 20px solid #F2A54C;
-        border-radius: 10px;
+        border-radius: 12px;
         position: relative;
     }
 }
 
 .payment-cancel{
     background-color: #F2F2F1;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
     width: calc(50% - 16px);
     @media (min-width: 315px){
@@ -843,7 +891,7 @@
     }
     @media (min-width: 768px){
         background-color: #F2F2F1;
-        border-radius: 10px;
+        border-radius: 12px;
         border: none;
         width: calc(50% - 16px);
     }
@@ -851,14 +899,14 @@
 .payment-back{
     @media (min-width: 315px){
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 6px;
         border: none;
         color: white;
         width: calc(50% - 4px);
     }
     @media (min-width: 768px){
         background-color: #ED7550;
-        border-radius: 10px;
+        border-radius: 12px;
         border: none;
         color: white;
         width: calc(50% - 16px);
@@ -868,14 +916,14 @@
 .total-amount{
     @media (min-width: 315px){
         border-radius: 6px;
-        border: 10px solid #ED7550;
+        border: 6px solid #ED7550;
     }
     @media (min-width: 576px){
         border-radius: 8px;
         border: 10px solid #ED7550;
     }
     @media (min-width: 768px){
-        border-radius: 10px;
+        border-radius: 12px;
         border: 20px solid #ED7550;
     }
 }
@@ -897,7 +945,7 @@
     @media (min-width: 576px){
         background-color: white;
         border-radius: 8px;
-        border: 6px solid #F2A54C;
+        border: 10px solid #F2A54C;
     }
     @media (min-width: 768px){
         background-color: white;
@@ -914,8 +962,18 @@
 
 
 .total-amount{
-    background-color: white;
-    border-radius: 10px;
+    @media (min-width: 315px){
+        background-color: white;
+        border-radius: 6px;
+    }
+    @media (min-width: 576px){
+        background-color: white;
+        border-radius: 8px;
+    }
+    @media (min-width: 768px){
+        background-color: white;
+        border-radius: 12px;
+    }
 }
 
 
@@ -952,9 +1010,21 @@
 }
 
 .receipt1-cancel{
-    background-color: #F2F2F1;
-    border-radius: 10px;
-    border: none;
+    @media (min-width: 315px){
+        background-color: #F2F2F1;
+        border-radius: 6px;
+        border: none;
+    }
+    @media (min-width: 576px){
+        background-color: #F2F2F1;
+        border-radius: 8px;
+        border: none;
+    }
+    @media (min-width: 768px){
+        background-color: #F2F2F1;
+        border-radius: 12px;
+        border: none;
+    }
 }
 
 .order-completed{
@@ -989,15 +1059,15 @@
 .no-funtion-border{
     @media (min-width: 315px){
         border: 6px solid #535353;
-        border-radius: 10px;
+        border-radius: 6px;
     }
     @media (min-width: 576px){
         border: 10px solid #535353;
-        border-radius: 10px;
+        border-radius: 8px;
     }
     @media (min-width: 768px){
         border: 20px solid #535353;
-        border-radius: 10px;
+        border-radius: 12px;
     }
 }
 

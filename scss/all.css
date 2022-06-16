@@ -12210,8 +12210,7 @@ textarea.form-control-lg {
 
 @media (min-width: 315px) {
   .discount {
-    width: 80px;
-    height: 20px;
+    display: inline-block;
     color: white;
     background-color: #ED7550;
     border-radius: 0px 100px 100px 0px;
@@ -12224,13 +12223,13 @@ textarea.form-control-lg {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 16px;
   }
 }
 
 @media (min-width: 576px) {
   .discount {
-    width: 45%;
-    height: 10%;
+    display: inline-block;
     color: white;
     background-color: #ED7550;
     border-radius: 0px 100px 100px 0px;
@@ -12243,6 +12242,7 @@ textarea.form-control-lg {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-right: 16px;
   }
 }
 
@@ -12282,11 +12282,22 @@ textarea.form-control-lg {
   position: relative;
 }
 
-.go-back {
-  position: absolute;
-  left: 3%;
-  top: 50%;
-  width: 5%;
+@media (min-width: 315px) {
+  .go-back {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    width: 8%;
+  }
+}
+
+@media (min-width: 576px) {
+  .go-back {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    width: 5%;
+  }
 }
 
 .detail-page-line {

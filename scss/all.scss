@@ -358,8 +358,7 @@
 }
 .discount{
     @media (min-width: 315px){
-        width: 80px;
-        height: 20px;
+        display: inline-block;
         color: white;
         background-color: #ED7550;
         border-radius: 0px 100px 100px 0px;
@@ -368,10 +367,10 @@
         left:0px;
         display: flex;
         align-items: center;
+        padding-right: 16px;
     }
     @media (min-width: 576px){
-        width: 45%;
-        height: 10%;
+        display: inline-block;
         color: white;
         background-color: #ED7550;
         border-radius: 0px 100px 100px 0px;
@@ -380,6 +379,7 @@
         left: 0;
         display: flex;
         align-items: center;
+        padding-right: 16px;
     }
 }
 .star{
@@ -415,10 +415,18 @@
     position: relative;
 }
 .go-back{
-    position: absolute;
-    left: 3%;
-    top: 50%;
-    width: 5%;
+    @media (min-width: 315px){
+        position: absolute;
+        left: 3%;
+        top: 50%;
+        width: 8%;
+    }
+    @media (min-width: 576px){
+        position: absolute;
+        left: 3%;
+        top: 50%;
+        width: 5%;
+    }
 }
 
 

@@ -12838,17 +12838,10 @@ textarea.form-control-lg {
   }
 }
 
-.payment-cancel {
-  background-color: #F2F2F1;
-  border-radius: 6px;
-  border: none;
-  width: calc(50% - 16px);
-}
-
 @media (min-width: 315px) {
   .payment-cancel {
     background-color: #F2F2F1;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none;
     width: calc(50% - 4px);
   }

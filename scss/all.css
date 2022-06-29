@@ -11735,6 +11735,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html, body {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -13075,6 +13079,78 @@ textarea.form-control-lg {
 @media (min-width: 315px) {
   .oc-img {
     max-width: 30% !important;
+  }
+}
+
+.right-btn {
+  z-index: 5;
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+
+.right-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 315px) {
+  .right-btn-1 {
+    background-color: #ED7550;
+    border-radius: 6px 0px 0px 6px;
+  }
+}
+
+@media (min-width: 576px) {
+  .right-btn-1 {
+    background-color: #ED7550;
+    border-radius: 8px 0px 0px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-btn-1 {
+    background-color: #ED7550;
+    border-radius: 12px 0px 0px 12px;
+  }
+}
+
+@media (min-width: 315px) {
+  .right-btn-2 {
+    background-color: #AFAFAF;
+    border-radius: 6px 0px 0px 6px;
+  }
+}
+
+@media (min-width: 576px) {
+  .right-btn-2 {
+    background-color: #AFAFAF;
+    border-radius: 8px 0px 0px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-btn-2 {
+    background-color: #AFAFAF;
+    border-radius: 12px 0px 0px 12px;
+  }
+}
+
+@media (min-width: 315px) {
+  .right-btn-2 img {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .right-btn-2 img {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-btn-2 img {
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=all.css.map */

@@ -1,5 +1,8 @@
 @import "bootstrap.min";
 
+html, body {
+    scroll-behavior: smooth;
+}
 
 
 *,
@@ -1070,5 +1073,57 @@
 .oc-img{
     @media (min-width: 315px){
         max-width: 30% !important;
+    }
+}
+
+.right-btn{
+    z-index: 5;
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+
+.right-btn a{
+    color: white;
+    text-decoration: none;
+}
+.right-btn-1{
+    @media (min-width: 315px){
+        background-color: #ED7550;
+        border-radius: 6px 0px 0px 6px;
+    }
+    @media (min-width: 576px){
+        background-color: #ED7550;
+        border-radius: 8px 0px 0px 8px;
+    }
+    @media (min-width: 768px){
+        background-color: #ED7550;
+        border-radius: 12px 0px 0px 12px;
+    }
+}
+.right-btn-2{
+    @media (min-width: 315px){
+        background-color: #AFAFAF;
+        border-radius: 6px 0px 0px 6px;
+    }
+    @media (min-width: 576px){
+        background-color: #AFAFAF;
+        border-radius: 8px 0px 0px 8px;
+    }
+    @media (min-width: 768px){
+        background-color: #AFAFAF;
+        border-radius: 12px 0px 0px 12px;
+    }
+}
+
+.right-btn-2 img{
+    @media (min-width: 315px){
+        max-width: 50%;
+    }
+    @media (min-width: 576px){
+        max-width: 75%;
+    }
+    @media (min-width: 768px){
+        max-width: 100%;
     }
 }

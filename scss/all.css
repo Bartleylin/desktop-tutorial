@@ -8437,7 +8437,7 @@ textarea.form-control-lg {
   font-size: calc(1.275rem + .3vw) !important;
 }
 
-.fs-5 {
+.fs-4 {
   font-size: 1.25rem !important;
 }
 
@@ -11891,37 +11891,37 @@ html, body {
 }
 
 @media (min-width: 315px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 0.375rem !important;
   }
 }
 
 @media (min-width: 576px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 0.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 0.75rem !important;
   }
 }
 
 @media (min-width: 992px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 0.875rem !important;
   }
 }
 
 @media (min-width: 1200px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 1rem  !important;
   }
 }
 
 @media (min-width: 1400px) {
-  .fs-5 {
+  .fs-4 {
     font-size: 1.5rem !important;
   }
 }

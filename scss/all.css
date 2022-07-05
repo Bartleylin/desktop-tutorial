@@ -11927,7 +11927,7 @@ html, body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 84%;
 }
 
 .bg {
@@ -12210,19 +12210,13 @@ html, body {
 
 @media (min-width: 315px) {
   .card {
-    border-radius: 6px;
+    border-radius: 6px !important;
   }
 }
 
 @media (min-width: 576px) {
   .card {
-    border-radius: 8px;
-  }
-}
-
-@media (min-width: 768px) {
-  .card {
-    border-radius: 12px;
+    border-radius: 8px !important;
   }
 }
 
@@ -13116,7 +13110,7 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
-    width: 45px;
+    width: 55px;
   }
 }
 
@@ -13126,7 +13120,7 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
-    width: 50px;
+    width: 60px;
   }
 }
 
@@ -13136,7 +13130,7 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
-    width: 58px;
+    width: 78px;
   }
 }
 
@@ -13169,13 +13163,6 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .right-btn-1 {
-    background-color: #F2A539;
-    border-radius: 12px 0px 0px 12px;
-  }
-}
-
 @media (min-width: 315px) {
   .right-btn-1 img {
     max-width: 50%;
@@ -13184,7 +13171,7 @@ html, body {
 
 @media (min-width: 992px) {
   .right-btn-1 img {
-    max-width: 70%;
+    max-width: 65%;
   }
 }
 
@@ -13208,13 +13195,6 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .right-btn-2 {
-    background-color: #AFAFAF;
-    border-radius: 12px 0px 0px 12px;
-  }
-}
-
 @media (min-width: 315px) {
   .right-btn-2 img {
     max-width: 40%;
@@ -13227,7 +13207,7 @@ html, body {
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1200px) {
   .right-btn-2 img {
     max-width: 55%;
   }
@@ -13244,9 +13224,34 @@ html, body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: -10px;
+    top: -13px;
     right: 3px;
     letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 576px) {
+  .shopping-cart-number {
+    position: absolute;
+    background-color: #EB5B52;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: -13px;
+    right: 3px;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .shopping-cart-number {
+    position: absolute;
+    background-color: #EB5B52;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: -15px;
+    right: 3px;
   }
 }
 

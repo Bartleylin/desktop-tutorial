@@ -1132,55 +1132,55 @@ html, body {
 }
 .right-btn-1{
     @media (min-width: 315px){
-        background-color: #F2A539;
-        border-radius: 6px 0px 0px 6px;
+        background-color: #F2A539 !important;
+        border-radius: 6px 0px 0px 6px !important;
     }
     @media (min-width: 576px){
-        background-color: #F2A539;
-        border-radius: 8px 0px 0px 8px;
+        background-color: #F2A539 !important;
+        border-radius: 8px 0px 0px 8px !important;
     }
     @media (min-width: 768px){
-        background-color: #F2A539;
-        border-radius: 12px 0px 0px 12px;
+        background-color: #F2A539 !important;
+        border-radius: 12px 0px 0px 12px !important;
     }
 }
 
 .right-btn-1 img{
     @media (min-width: 315px){
-        max-width: 50%;
+        max-width: 50% !important;
     }
     @media (min-width: 992px){
-        max-width: 70%;
+        max-width: 70% !important;
     }
     @media (min-width: 1200px){
-        max-width: 75%;
+        max-width: 75% !important;
     }
 }
 
 .right-btn-2{
     @media (min-width: 315px){
-        background-color: #AFAFAF;
-        border-radius: 6px 0px 0px 6px;
+        background-color: #AFAFAF !important;
+        border-radius: 6px 0px 0px 6px !important;
     }
     @media (min-width: 576px){
-        background-color: #AFAFAF;
-        border-radius: 8px 0px 0px 8px;
+        background-color: #AFAFAF !important;
+        border-radius: 8px 0px 0px 8px !important;
     }
     @media (min-width: 768px){
-        background-color: #AFAFAF;
-        border-radius: 12px 0px 0px 12px;
+        background-color: #AFAFAF !important;
+        border-radius: 12px 0px 0px 12px !important;
     }
 }
 
 .right-btn-2 img{
     @media (min-width: 315px){
-        max-width: 40%;
+        max-width: 40% !important;
     }
     @media (min-width: 992px){
-        max-width: 55%;
+        max-width: 55% !important;
     }
     @media (min-width: 1080px){
-        max-width: 55%;
+        max-width: 55% !important;
     }
 }
 

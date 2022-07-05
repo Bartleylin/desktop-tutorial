@@ -13157,79 +13157,79 @@ html, body {
 
 @media (min-width: 315px) {
   .right-btn-1 {
-    background-color: #F2A539;
-    border-radius: 6px 0px 0px 6px;
+    background-color: #F2A539 !important;
+    border-radius: 6px 0px 0px 6px !important;
   }
 }
 
 @media (min-width: 576px) {
   .right-btn-1 {
-    background-color: #F2A539;
-    border-radius: 8px 0px 0px 8px;
+    background-color: #F2A539 !important;
+    border-radius: 8px 0px 0px 8px !important;
   }
 }
 
 @media (min-width: 768px) {
   .right-btn-1 {
-    background-color: #F2A539;
-    border-radius: 12px 0px 0px 12px;
+    background-color: #F2A539 !important;
+    border-radius: 12px 0px 0px 12px !important;
   }
 }
 
 @media (min-width: 315px) {
   .right-btn-1 img {
-    max-width: 50%;
+    max-width: 50% !important;
   }
 }
 
 @media (min-width: 992px) {
   .right-btn-1 img {
-    max-width: 70%;
+    max-width: 70% !important;
   }
 }
 
 @media (min-width: 1200px) {
   .right-btn-1 img {
-    max-width: 75%;
+    max-width: 75% !important;
   }
 }
 
 @media (min-width: 315px) {
   .right-btn-2 {
-    background-color: #AFAFAF;
-    border-radius: 6px 0px 0px 6px;
+    background-color: #AFAFAF !important;
+    border-radius: 6px 0px 0px 6px !important;
   }
 }
 
 @media (min-width: 576px) {
   .right-btn-2 {
-    background-color: #AFAFAF;
-    border-radius: 8px 0px 0px 8px;
+    background-color: #AFAFAF !important;
+    border-radius: 8px 0px 0px 8px !important;
   }
 }
 
 @media (min-width: 768px) {
   .right-btn-2 {
-    background-color: #AFAFAF;
-    border-radius: 12px 0px 0px 12px;
+    background-color: #AFAFAF !important;
+    border-radius: 12px 0px 0px 12px !important;
   }
 }
 
 @media (min-width: 315px) {
   .right-btn-2 img {
-    max-width: 40%;
+    max-width: 40% !important;
   }
 }
 
 @media (min-width: 992px) {
   .right-btn-2 img {
-    max-width: 55%;
+    max-width: 55% !important;
   }
 }
 
 @media (min-width: 1080px) {
   .right-btn-2 img {
-    max-width: 55%;
+    max-width: 55% !important;
   }
 }
 

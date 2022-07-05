@@ -361,6 +361,17 @@ html, body {
     display: none;
 }
 
+.card{
+    @media (min-width: 315px){
+        border-radius: 6px;
+    }
+    @media (min-width: 576px){
+        border-radius: 8px;
+    }
+    @media (min-width: 768px){
+        border-radius: 12px;
+    }
+}
 .card-body{
     position: relative;
 }
@@ -510,7 +521,7 @@ html, body {
 }
 .form-check-inline {
     display: inline-block;
-     margin-right: 5px;
+    margin-right: 5px;
 }
 .form-check {
     display: block;
@@ -1083,21 +1094,35 @@ html, body {
         position: fixed;
         top: 40%;
         right: 0;
-        width: 60px;
+        width: 45px;
+    }
+    @media (min-width: 576px){
+        z-index: 5;
+        position: fixed;
+        top: 40%;
+        right: 0;
+        width: 45px;
+    }
+    @media (min-width: 768px){
+        z-index: 5;
+        position: fixed;
+        top: 40%;
+        right: 0;
+        width: 50px;
     }
     @media (min-width: 992px){
         z-index: 5;
         position: fixed;
         top: 40%;
         right: 0;
-        width: 80px;
+        width: 58px;
     }
     @media (min-width: 1200px){
         z-index: 5;
         position: fixed;
         top: 40%;
         right: 0;
-        width: 9%;
+        width: 5%;
     }
 }
 
@@ -1128,7 +1153,7 @@ html, body {
         max-width: 70%;
     }
     @media (min-width: 1200px){
-        max-width: 100%;
+        max-width: 75%;
     }
 }
 
@@ -1149,10 +1174,13 @@ html, body {
 
 .right-btn-2 img{
     @media (min-width: 315px){
-        max-width: 50%;
+        max-width: 40%;
     }
     @media (min-width: 992px){
-        max-width: 70%;
+        max-width: 55%;
+    }
+    @media (min-width: 1080px){
+        max-width: 55%;
     }
 }
 
@@ -1164,11 +1192,12 @@ html, body {
     @media (min-width: 315px){
         position: absolute;
         background-color: #EB5B52;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         border-radius: 50%;
         top: -10px;
-        right: 5px;
+        right: 3px;
+        letter-spacing: -1px;
     }
     @media (min-width: 992px){
         position: absolute;
@@ -1176,8 +1205,8 @@ html, body {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        top: -10px;
-        right: 5px;
+        top: -13px;
+        right: 3px;
     }
     @media (min-width: 1200px){
         position: absolute;
@@ -1185,7 +1214,7 @@ html, body {
         width: 38px;
         height: 38px;
         border-radius: 50%;
-        top: -10px;
-        right: -6px;
+        top: -13px;
+        right: 2px;
     }
 }

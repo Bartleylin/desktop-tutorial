@@ -11927,7 +11927,7 @@ html, body {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 84%;
 }
 
 .bg {
@@ -12206,6 +12206,18 @@ html, body {
 
 .nav::-webkit-scrollbar {
   display: none;
+}
+
+@media (min-width: 315px) {
+  .card {
+    border-radius: 6px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .card {
+    border-radius: 8px !important;
+  }
 }
 
 .card-body {
@@ -13088,6 +13100,26 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
+    width: 45px;
+  }
+}
+
+@media (min-width: 576px) {
+  .right-btn {
+    z-index: 5;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .right-btn {
+    z-index: 5;
+    position: fixed;
+    top: 40%;
+    right: 0;
     width: 60px;
   }
 }
@@ -13098,7 +13130,7 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
-    width: 80px;
+    width: 78px;
   }
 }
 
@@ -13108,7 +13140,7 @@ html, body {
     position: fixed;
     top: 40%;
     right: 0;
-    width: 9%;
+    width: 7%;
   }
 }
 
@@ -13131,13 +13163,6 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .right-btn-1 {
-    background-color: #F2A539;
-    border-radius: 12px 0px 0px 12px;
-  }
-}
-
 @media (min-width: 315px) {
   .right-btn-1 img {
     max-width: 50%;
@@ -13146,13 +13171,13 @@ html, body {
 
 @media (min-width: 992px) {
   .right-btn-1 img {
-    max-width: 70%;
+    max-width: 65%;
   }
 }
 
 @media (min-width: 1200px) {
   .right-btn-1 img {
-    max-width: 100%;
+    max-width: 75%;
   }
 }
 
@@ -13170,22 +13195,21 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .right-btn-2 {
-    background-color: #AFAFAF;
-    border-radius: 12px 0px 0px 12px;
-  }
-}
-
 @media (min-width: 315px) {
   .right-btn-2 img {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
 
 @media (min-width: 992px) {
   .right-btn-2 img {
-    max-width: 70%;
+    max-width: 55%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right-btn-2 img {
+    max-width: 55%;
   }
 }
 
@@ -13197,11 +13221,37 @@ html, body {
   .shopping-cart-number {
     position: absolute;
     background-color: #EB5B52;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -13px;
+    right: 3px;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 576px) {
+  .shopping-cart-number {
+    position: absolute;
+    background-color: #EB5B52;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: -13px;
+    right: 3px;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .shopping-cart-number {
+    position: absolute;
+    background-color: #EB5B52;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    top: -10px;
-    right: 5px;
+    top: -15px;
+    right: 3px;
   }
 }
 
@@ -13212,8 +13262,8 @@ html, body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    top: -10px;
-    right: 5px;
+    top: -13px;
+    right: 3px;
   }
 }
 
@@ -13224,8 +13274,8 @@ html, body {
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    top: -10px;
-    right: -6px;
+    top: -16px;
+    right: -4px;
   }
 }
 /*# sourceMappingURL=wps_site_s.css.map */

@@ -1225,3 +1225,74 @@ html, body {
         right: -4px;
     }
 }
+
+.shopping-cart-2{
+    position:relative;
+    @media (min-width: 315px){
+        position: absolute;
+        right: 3%;
+        top: 50%;
+        width: 8%;
+    }
+    @media (min-width: 576px){
+        position: absolute;
+        right: 3%;
+        top: 50%;
+        width: 5%;
+    }
+}
+
+.shopping-cart-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.shopping-cart-number-2{
+    @media (min-width: 315px){
+        position: absolute;
+        background-color: #EB5B52;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        top: -8px;
+        right: -7px;
+        letter-spacing: -1px;
+    }
+    @media (min-width: 576px){
+        position: absolute;
+        background-color: #EB5B52;
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        top: -12px;
+        right: -10px;
+        letter-spacing: -1px;
+    }
+    @media (min-width: 768px){
+        position: absolute;
+        background-color: #EB5B52;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        top: -12px;
+        right: -10px;
+    }
+    @media (min-width: 992px){
+        position: absolute;
+        background-color: #EB5B52;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        top: -12px;
+        right: -10px;
+    }
+    @media (min-width: 1200px){
+        position: absolute;
+        background-color: #EB5B52;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        top: -18px;
+        right: -10px;
+    }
+}
